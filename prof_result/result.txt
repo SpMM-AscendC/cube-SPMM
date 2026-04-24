@@ -1,0 +1,13 @@
+[2026-04-22 14:22:21] Category Performance Statistics
+Category: temp_input_copy | Dir: ../temp_input_copy | Samples: 2 | Total Perf: 146.98294100 | Avg Perf: 73.491471
+
+[2026-04-22 14:48:34] Category Performance Statistics
+Category: temp_input_copy | Dir: ../temp_input_copy | Samples: 2 | Total Perf: 147.22294700 | Avg Perf: 73.611474
+
+[2026-04-22 15:24:42] Category Performance Statistics
+Category: Bai | Dir: ../inputs/Bai | Samples: 4 | Total Perf: 140.82281700 | Avg Perf: 35.205704
+Category: JGD | Dir: ../inputs/JGD | Samples: 3 | Total Perf: 312.26623000 | Avg Perf: 104.088743
+Category: Gset | Dir: ../inputs/Gset | Samples: 3 | Total Perf: 195.70391100 | Avg Perf: 65.234637
+Category: Pajek | Dir: ../inputs/Pajek | Samples: 2 | Total Perf: 40.40080900 | Avg Perf: 20.200405
+Category: VDOL | Dir: ../inputs/VDOL | Samples: 4 | Total Perf: 343.94687500 | Avg Perf: 85.986719
+Category: HB | Dir: ../inputs/HB | Samples: 5 | Total Perf: 52.86105700 | Avg Perf: 10.572211

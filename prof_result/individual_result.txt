@@ -1,0 +1,35 @@
+[2026-04-22 14:19:57] | Category: temp_input_copy | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.061363 | Verify: SUCCESS
+[2026-04-22 14:20:18] | Category: temp_input_copy | Sample: G59 | Dims(M,K,N,NNZ): 5008,5008,128,29570 | Perf: 78.641571 | Verify: SUCCESS
+[2026-04-22 14:22:00] | Category: temp_input_copy | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.301369 | Verify: SUCCESS
+[2026-04-22 14:22:21] | Category: temp_input_copy | Sample: G59 | Dims(M,K,N,NNZ): 5008,5008,128,29570 | Perf: 78.681572 | Verify: SUCCESS
+[2026-04-22 14:47:24] | Category: temp_input_copy | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.441368 | Verify: SUCCESS
+[2026-04-22 14:48:13] | Category: temp_input_copy | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.381371 | Verify: SUCCESS
+[2026-04-22 14:48:34] | Category: temp_input_copy | Sample: G59 | Dims(M,K,N,NNZ): 5008,5008,128,29570 | Perf: 78.841576 | Verify: SUCCESS
+
+[2026-04-22 15:16:01] | Category: Bai | Sample: bfwb782 | Dims(M,K,N,NNZ): 784,784,128,3382 | Perf: 12.960259 | Verify: SUCCESS
+[2026-04-22 15:16:10] | Category: Bai | Sample: cdde6 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 15.400308 | Verify: SUCCESS
+[2026-04-22 15:16:36] | Category: Bai | Sample: mhd4800a | Dims(M,K,N,NNZ): 4800,4800,128,102252 | Perf: 65.501312 | Verify: FAILED
+[2026-04-22 15:16:52] | Category: Bai | Sample: rdb3200l | Dims(M,K,N,NNZ): 3200,3200,128,18880 | Perf: 46.960938 | Verify: SUCCESS
+[2026-04-22 15:17:02] | Category: Gset | Sample: G10 | Dims(M,K,N,NNZ): 800,800,128,19176 | Perf: 48.220963 | Verify: SUCCESS
+[2026-04-22 15:17:15] | Category: Gset | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.821373 | Verify: SUCCESS
+[2026-04-22 15:17:36] | Category: Gset | Sample: G59 | Dims(M,K,N,NNZ): 5008,5008,128,29570 | Perf: 78.661575 | Verify: SUCCESS
+[2026-04-22 15:17:43] | Category: HB | Sample: bcsstk03 | Dims(M,K,N,NNZ): 112,112,128,376 | Perf: 7.200144 | Verify: SUCCESS
+[2026-04-22 15:17:51] | Category: HB | Sample: bcsstk20 | Dims(M,K,N,NNZ): 496,496,128,1810 | Perf: 8.880177 | Verify: SUCCESS
+[2026-04-22 15:18:00] | Category: HB | Sample: bp_1600 | Dims(M,K,N,NNZ): 832,832,128,4841 | Perf: 14.320287 | Verify: SUCCESS
+[2026-04-22 15:18:10] | Category: HB | Sample: illc1033 | Dims(M,K,N,NNZ): 1040,320,128,4732 | Perf: 15.760315 | Verify: SUCCESS
+[2026-04-22 15:18:17] | Category: HB | Sample: west0156 | Dims(M,K,N,NNZ): 160,160,128,371 | Perf: 6.700134 | Verify: SUCCESS
+[2026-04-22 15:18:35] | Category: JGD | Sample: ch7-6-b2 | Dims(M,K,N,NNZ): 4208,640,128,12600 | Perf: 37.760754 | Verify: SUCCESS
+[2026-04-22 15:18:43] | Category: JGD | Sample: cis-n4c6-b1 | Dims(M,K,N,NNZ): 224,32,128,420 | Perf: 9.940199 | Verify: SUCCESS
+[2026-04-22 15:21:09] | Category: JGD | Sample: mk12-b3 | Dims(M,K,N,NNZ): 51984,13872,128,207900 | Perf: 264.565277 | Verify: SUCCESS
+[2026-04-22 15:21:17] | Category: Pajek | Sample: GD97_c | Dims(M,K,N,NNZ): 464,464,128,460 | Perf: 8.200164 | Verify: SUCCESS
+[2026-04-22 15:21:53] | Category: Pajek | Sample: Reuters911_Day_16 | Dims(M,K,N,NNZ): 13344,13344,128,4893 | Perf: 32.200645 | Verify: SUCCESS
+[2026-04-22 15:22:09] | Category: VDOL | Sample: dynamicSoaringProblem_6 | Dims(M,K,N,NNZ): 3440,3440,128,19335 | Perf: 32.580650 | Verify: SUCCESS
+[2026-04-22 15:22:29] | Category: VDOL | Sample: freeFlyingRobot_10 | Dims(M,K,N,NNZ): 5232,5232,128,21604 | Perf: 46.660934 | Verify: SUCCESS
+[2026-04-22 15:22:59] | Category: VDOL | Sample: kineticBatchReactor_6 | Dims(M,K,N,NNZ): 7776,7776,128,43280 | Perf: 104.582092 | Verify: SUCCESS
+[2026-04-22 15:24:42] | Category: VDOL | Sample: lowThrust_12 | Dims(M,K,N,NNZ): 18464,18464,128,117423 | Perf: 160.123199 | Verify: SUCCESS
+[2026-04-23 18:06:15] | Category: Bai | Sample: bfwb782 | Dims(M,K,N,NNZ): 784,784,128,3382 | Perf: 0 | Verify: SUCCESS
+
+[2026-04-23 18:06:24] | Category: Bai | Sample: cdde6 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 0 | Verify: SUCCESS
+
+[2026-04-24 10:15:32] | Category: Bai | Sample: bfwb782 | Dims(M,K,N,NNZ): 784,784,128,3382 | Perf: 13.520270 | Verify: SUCCESS
+
