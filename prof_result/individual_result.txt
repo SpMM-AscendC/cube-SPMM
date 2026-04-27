@@ -1,35 +1,1180 @@
-[2026-04-22 14:19:57] | Category: temp_input_copy | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.061363 | Verify: SUCCESS
-[2026-04-22 14:20:18] | Category: temp_input_copy | Sample: G59 | Dims(M,K,N,NNZ): 5008,5008,128,29570 | Perf: 78.641571 | Verify: SUCCESS
-[2026-04-22 14:22:00] | Category: temp_input_copy | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.301369 | Verify: SUCCESS
-[2026-04-22 14:22:21] | Category: temp_input_copy | Sample: G59 | Dims(M,K,N,NNZ): 5008,5008,128,29570 | Perf: 78.681572 | Verify: SUCCESS
-[2026-04-22 14:47:24] | Category: temp_input_copy | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.441368 | Verify: SUCCESS
-[2026-04-22 14:48:13] | Category: temp_input_copy | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.381371 | Verify: SUCCESS
-[2026-04-22 14:48:34] | Category: temp_input_copy | Sample: G59 | Dims(M,K,N,NNZ): 5008,5008,128,29570 | Perf: 78.841576 | Verify: SUCCESS
+[2026-04-24 14:39:19] | Category: Bai | Sample: bfwb782 | Dims(M,K,N,NNZ): 784,784,128,3382 | Perf: 13.200264 | Verify: SUCCESS
 
-[2026-04-22 15:16:01] | Category: Bai | Sample: bfwb782 | Dims(M,K,N,NNZ): 784,784,128,3382 | Perf: 12.960259 | Verify: SUCCESS
-[2026-04-22 15:16:10] | Category: Bai | Sample: cdde6 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 15.400308 | Verify: SUCCESS
-[2026-04-22 15:16:36] | Category: Bai | Sample: mhd4800a | Dims(M,K,N,NNZ): 4800,4800,128,102252 | Perf: 65.501312 | Verify: FAILED
-[2026-04-22 15:16:52] | Category: Bai | Sample: rdb3200l | Dims(M,K,N,NNZ): 3200,3200,128,18880 | Perf: 46.960938 | Verify: SUCCESS
-[2026-04-22 15:17:02] | Category: Gset | Sample: G10 | Dims(M,K,N,NNZ): 800,800,128,19176 | Perf: 48.220963 | Verify: SUCCESS
-[2026-04-22 15:17:15] | Category: Gset | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.821373 | Verify: SUCCESS
-[2026-04-22 15:17:36] | Category: Gset | Sample: G59 | Dims(M,K,N,NNZ): 5008,5008,128,29570 | Perf: 78.661575 | Verify: SUCCESS
-[2026-04-22 15:17:43] | Category: HB | Sample: bcsstk03 | Dims(M,K,N,NNZ): 112,112,128,376 | Perf: 7.200144 | Verify: SUCCESS
-[2026-04-22 15:17:51] | Category: HB | Sample: bcsstk20 | Dims(M,K,N,NNZ): 496,496,128,1810 | Perf: 8.880177 | Verify: SUCCESS
-[2026-04-22 15:18:00] | Category: HB | Sample: bp_1600 | Dims(M,K,N,NNZ): 832,832,128,4841 | Perf: 14.320287 | Verify: SUCCESS
-[2026-04-22 15:18:10] | Category: HB | Sample: illc1033 | Dims(M,K,N,NNZ): 1040,320,128,4732 | Perf: 15.760315 | Verify: SUCCESS
-[2026-04-22 15:18:17] | Category: HB | Sample: west0156 | Dims(M,K,N,NNZ): 160,160,128,371 | Perf: 6.700134 | Verify: SUCCESS
-[2026-04-22 15:18:35] | Category: JGD | Sample: ch7-6-b2 | Dims(M,K,N,NNZ): 4208,640,128,12600 | Perf: 37.760754 | Verify: SUCCESS
-[2026-04-22 15:18:43] | Category: JGD | Sample: cis-n4c6-b1 | Dims(M,K,N,NNZ): 224,32,128,420 | Perf: 9.940199 | Verify: SUCCESS
-[2026-04-22 15:21:09] | Category: JGD | Sample: mk12-b3 | Dims(M,K,N,NNZ): 51984,13872,128,207900 | Perf: 264.565277 | Verify: SUCCESS
-[2026-04-22 15:21:17] | Category: Pajek | Sample: GD97_c | Dims(M,K,N,NNZ): 464,464,128,460 | Perf: 8.200164 | Verify: SUCCESS
-[2026-04-22 15:21:53] | Category: Pajek | Sample: Reuters911_Day_16 | Dims(M,K,N,NNZ): 13344,13344,128,4893 | Perf: 32.200645 | Verify: SUCCESS
-[2026-04-22 15:22:09] | Category: VDOL | Sample: dynamicSoaringProblem_6 | Dims(M,K,N,NNZ): 3440,3440,128,19335 | Perf: 32.580650 | Verify: SUCCESS
-[2026-04-22 15:22:29] | Category: VDOL | Sample: freeFlyingRobot_10 | Dims(M,K,N,NNZ): 5232,5232,128,21604 | Perf: 46.660934 | Verify: SUCCESS
-[2026-04-22 15:22:59] | Category: VDOL | Sample: kineticBatchReactor_6 | Dims(M,K,N,NNZ): 7776,7776,128,43280 | Perf: 104.582092 | Verify: SUCCESS
-[2026-04-22 15:24:42] | Category: VDOL | Sample: lowThrust_12 | Dims(M,K,N,NNZ): 18464,18464,128,117423 | Perf: 160.123199 | Verify: SUCCESS
-[2026-04-23 18:06:15] | Category: Bai | Sample: bfwb782 | Dims(M,K,N,NNZ): 784,784,128,3382 | Perf: 0 | Verify: SUCCESS
+[2026-04-24 14:39:29] | Category: Bai | Sample: cdde6 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 16.160324 | Verify: SUCCESS
 
-[2026-04-23 18:06:24] | Category: Bai | Sample: cdde6 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 0 | Verify: SUCCESS
+[2026-04-24 14:39:56] | Category: Bai | Sample: mhd4800a | Dims(M,K,N,NNZ): 4800,4800,128,102252 | Perf: 65.041298 | Verify: FAILED
 
-[2026-04-24 10:15:32] | Category: Bai | Sample: bfwb782 | Dims(M,K,N,NNZ): 784,784,128,3382 | Perf: 13.520270 | Verify: SUCCESS
+[2026-04-24 14:40:11] | Category: Bai | Sample: rdb3200l | Dims(M,K,N,NNZ): 3200,3200,128,18880 | Perf: 47.140942 | Verify: SUCCESS
+
+[2026-04-25 13:58:19] | Category: Bai | Sample: bfwb782 | Dims(M,K,N,NNZ): 784,784,128,3382 | Perf: 13.200264 | Verify: SUCCESS
+
+[2026-04-25 13:58:29] | Category: Bai | Sample: cdde6 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 15.480309 | Verify: SUCCESS
+
+[2026-04-25 13:58:55] | Category: Bai | Sample: mhd4800a | Dims(M,K,N,NNZ): 4800,4800,128,102252 | Perf: 65.001297 | Verify: FAILED
+
+[2026-04-25 13:59:11] | Category: Bai | Sample: rdb3200l | Dims(M,K,N,NNZ): 3200,3200,128,18880 | Perf: 47.500950 | Verify: SUCCESS
+
+[2026-04-25 16:24:40] | Category: Bai | Sample: af23560 | Dims(M,K,N,NNZ): 23568,23568,128,484256 | Perf: 272.765442 | Verify: FAILED
+
+[2026-04-25 16:24:48] | Category: Bai | Sample: bfwa398 | Dims(M,K,N,NNZ): 400,400,128,3678 | Perf: 10.600212 | Verify: SUCCESS
+
+[2026-04-25 16:24:55] | Category: Bai | Sample: bfwa62 | Dims(M,K,N,NNZ): 64,64,128,450 | Perf: 6.740135 | Verify: SUCCESS
+
+[2026-04-25 16:25:04] | Category: Bai | Sample: bfwa782 | Dims(M,K,N,NNZ): 784,784,128,7514 | Perf: 15.380307 | Verify: SUCCESS
+
+[2026-04-25 16:25:12] | Category: Bai | Sample: bfwb398 | Dims(M,K,N,NNZ): 400,400,128,1654 | Perf: 9.680194 | Verify: SUCCESS
+
+[2026-04-25 16:25:19] | Category: Bai | Sample: bfwb62 | Dims(M,K,N,NNZ): 64,64,128,202 | Perf: 7.000140 | Verify: SUCCESS
+
+[2026-04-25 16:25:28] | Category: Bai | Sample: bfwb782 | Dims(M,K,N,NNZ): 784,784,128,3382 | Perf: 13.060261 | Verify: SUCCESS
+
+[2026-04-25 16:25:35] | Category: Bai | Sample: bwm200 | Dims(M,K,N,NNZ): 208,208,128,796 | Perf: 7.600152 | Verify: SUCCESS
+
+[2026-04-25 16:25:50] | Category: Bai | Sample: cdde1 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 15.360307 | Verify: SUCCESS
+
+[2026-04-25 16:26:00] | Category: Bai | Sample: cdde2 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 15.560311 | Verify: SUCCESS
+
+[2026-04-25 16:26:09] | Category: Bai | Sample: cdde3 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 15.740314 | Verify: SUCCESS
+
+[2026-04-25 16:26:19] | Category: Bai | Sample: cdde4 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 15.760315 | Verify: SUCCESS
+
+[2026-04-25 16:26:28] | Category: Bai | Sample: cdde5 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 15.420308 | Verify: SUCCESS
+
+[2026-04-25 16:26:37] | Category: Bai | Sample: cdde6 | Dims(M,K,N,NNZ): 976,976,128,4681 | Perf: 15.920319 | Verify: SUCCESS
+
+[2026-04-25 16:26:44] | Category: Bai | Sample: ck104 | Dims(M,K,N,NNZ): 112,112,128,992 | Perf: 6.860137 | Verify: SUCCESS
+
+[2026-04-25 16:26:52] | Category: Bai | Sample: ck400 | Dims(M,K,N,NNZ): 400,400,128,2860 | Perf: 8.840177 | Verify: SUCCESS
+
+[2026-04-25 16:27:04] | Category: Bai | Sample: ck656 | Dims(M,K,N,NNZ): 656,656,128,3884 | Perf: 10.400208 | Verify: SUCCESS
+
+[2026-04-25 16:27:41] | Category: Bai | Sample: cryg10000 | Dims(M,K,N,NNZ): 10000,10000,128,49699 | Perf: 114.122284 | Verify: FAILED
+
+[2026-04-25 16:27:55] | Category: Bai | Sample: cryg2500 | Dims(M,K,N,NNZ): 2512,2512,128,12349 | Perf: 32.240646 | Verify: FAILED
+
+[2026-04-25 16:28:07] | Category: Bai | Sample: dw1024 | Dims(M,K,N,NNZ): 2048,2048,128,10114 | Perf: 27.060541 | Verify: SUCCESS
+
+[2026-04-25 16:28:20] | Category: Bai | Sample: dw2048 | Dims(M,K,N,NNZ): 2048,2048,128,10114 | Perf: 26.900537 | Verify: SUCCESS
+
+[2026-04-25 16:28:28] | Category: Bai | Sample: dw256A | Dims(M,K,N,NNZ): 512,512,128,2480 | Perf: 10.300206 | Verify: SUCCESS
+
+[2026-04-25 16:28:36] | Category: Bai | Sample: dw256B | Dims(M,K,N,NNZ): 512,512,128,2500 | Perf: 10.780215 | Verify: SUCCESS
+
+[2026-04-25 16:29:05] | Category: Bai | Sample: dw4096 | Dims(M,K,N,NNZ): 8192,8192,128,41746 | Perf: 97.121941 | Verify: SUCCESS
+
+[2026-04-25 16:29:34] | Category: Bai | Sample: dw8192 | Dims(M,K,N,NNZ): 8192,8192,128,41746 | Perf: 97.821953 | Verify: SUCCESS
+
+[2026-04-25 16:29:48] | Category: Bai | Sample: dwa512 | Dims(M,K,N,NNZ): 512,512,128,2480 | Perf: 10.580212 | Verify: SUCCESS
+
+[2026-04-25 16:29:56] | Category: Bai | Sample: dwb512 | Dims(M,K,N,NNZ): 512,512,128,2500 | Perf: 10.640213 | Verify: SUCCESS
+
+[2026-04-25 16:30:03] | Category: Bai | Sample: lop163 | Dims(M,K,N,NNZ): 176,176,128,935 | Perf: 8.180163 | Verify: SUCCESS
+
+[2026-04-25 16:30:23] | Category: Bai | Sample: mhd3200a | Dims(M,K,N,NNZ): 3200,3200,128,68026 | Perf: 44.600891 | Verify: FAILED
+
+[2026-04-25 16:30:38] | Category: Bai | Sample: mhd3200b | Dims(M,K,N,NNZ): 3200,3200,128,10758 | Perf: 27.200544 | Verify: SUCCESS
+
+[2026-04-25 16:31:05] | Category: Bai | Sample: mhd4800a | Dims(M,K,N,NNZ): 4800,4800,128,102252 | Perf: 64.721298 | Verify: FAILED
+
+[2026-04-25 16:31:24] | Category: Bai | Sample: mhd4800b | Dims(M,K,N,NNZ): 4800,4800,128,16160 | Perf: 38.180763 | Verify: SUCCESS
+
+[2026-04-25 16:31:33] | Category: Bai | Sample: mhda416 | Dims(M,K,N,NNZ): 416,416,128,8562 | Perf: 10.460209 | Verify: SUCCESS
+
+[2026-04-25 16:31:41] | Category: Bai | Sample: mhdb416 | Dims(M,K,N,NNZ): 416,416,128,1364 | Perf: 8.700174 | Verify: SUCCESS
+
+[2026-04-25 16:31:49] | Category: Bai | Sample: odepa400 | Dims(M,K,N,NNZ): 400,400,128,1201 | Perf: 8.680174 | Verify: SUCCESS
+
+[2026-04-25 16:31:57] | Category: Bai | Sample: odepb400 | Dims(M,K,N,NNZ): 400,400,128,399 | Perf: 6.760135 | Verify: SUCCESS
+
+[2026-04-25 16:32:04] | Category: Bai | Sample: olm100 | Dims(M,K,N,NNZ): 112,112,128,396 | Perf: 7.060141 | Verify: SUCCESS
+
+[2026-04-25 16:32:13] | Category: Bai | Sample: olm1000 | Dims(M,K,N,NNZ): 1008,1008,128,3996 | Perf: 14.180284 | Verify: SUCCESS
+
+[2026-04-25 16:32:27] | Category: Bai | Sample: olm500 | Dims(M,K,N,NNZ): 512,512,128,1996 | Perf: 9.680194 | Verify: SUCCESS
+
+[2026-04-25 16:32:48] | Category: Bai | Sample: pde225 | Dims(M,K,N,NNZ): 240,240,128,1065 | Perf: 8.460169 | Verify: SUCCESS
+
+[2026-04-25 16:33:03] | Category: Bai | Sample: pde2961 | Dims(M,K,N,NNZ): 2976,2976,128,14585 | Perf: 37.400749 | Verify: SUCCESS
+
+[2026-04-25 16:33:13] | Category: Bai | Sample: pde900 | Dims(M,K,N,NNZ): 912,912,128,4380 | Perf: 15.720314 | Verify: SUCCESS
+
+[2026-04-25 16:33:24] | Category: Bai | Sample: qh1484 | Dims(M,K,N,NNZ): 1488,1488,128,6110 | Perf: 17.600351 | Verify: SUCCESS
+
+[2026-04-25 16:33:33] | Category: Bai | Sample: qh768 | Dims(M,K,N,NNZ): 768,768,128,2934 | Perf: 11.740234 | Verify: SUCCESS
+
+[2026-04-25 16:33:42] | Category: Bai | Sample: qh882 | Dims(M,K,N,NNZ): 896,896,128,3354 | Perf: 12.520250 | Verify: SUCCESS
+
+[2026-04-25 16:33:51] | Category: Bai | Sample: rbsa480 | Dims(M,K,N,NNZ): 480,480,128,17088 | Perf: 13.980280 | Verify: SUCCESS
+
+[2026-04-25 16:34:00] | Category: Bai | Sample: rbsb480 | Dims(M,K,N,NNZ): 480,480,128,17088 | Perf: 14.660294 | Verify: SUCCESS
+
+[2026-04-25 16:34:11] | Category: Bai | Sample: rdb1250 | Dims(M,K,N,NNZ): 1264,1264,128,7300 | Perf: 21.600431 | Verify: SUCCESS
+
+[2026-04-25 16:34:22] | Category: Bai | Sample: rdb1250l | Dims(M,K,N,NNZ): 1264,1264,128,7300 | Perf: 21.860437 | Verify: SUCCESS
+
+[2026-04-25 16:34:29] | Category: Bai | Sample: rdb200 | Dims(M,K,N,NNZ): 208,208,128,1120 | Perf: 8.260165 | Verify: SUCCESS
+
+[2026-04-25 16:34:38] | Category: Bai | Sample: rdb200l | Dims(M,K,N,NNZ): 208,208,128,1120 | Perf: 8.240165 | Verify: SUCCESS
+
+[2026-04-25 16:34:50] | Category: Bai | Sample: rdb2048 | Dims(M,K,N,NNZ): 2048,2048,128,12032 | Perf: 32.120644 | Verify: SUCCESS
+
+[2026-04-25 16:35:03] | Category: Bai | Sample: rdb2048_noL | Dims(M,K,N,NNZ): 2048,2048,128,12032 | Perf: 32.000641 | Verify: SUCCESS
+
+[2026-04-25 16:35:19] | Category: Bai | Sample: rdb3200l | Dims(M,K,N,NNZ): 3200,3200,128,18880 | Perf: 47.320946 | Verify: SUCCESS
+
+[2026-04-25 16:35:27] | Category: Bai | Sample: rdb450 | Dims(M,K,N,NNZ): 464,464,128,2580 | Perf: 11.160223 | Verify: SUCCESS
+
+[2026-04-25 16:35:35] | Category: Bai | Sample: rdb450l | Dims(M,K,N,NNZ): 464,464,128,2580 | Perf: 11.340227 | Verify: SUCCESS
+
+[2026-04-25 16:35:55] | Category: Bai | Sample: rdb5000 | Dims(M,K,N,NNZ): 5008,5008,128,29600 | Perf: 69.741394 | Verify: SUCCESS
+
+[2026-04-25 16:36:04] | Category: Bai | Sample: rdb800l | Dims(M,K,N,NNZ): 800,800,128,4640 | Perf: 15.540311 | Verify: SUCCESS
+
+[2026-04-25 16:36:14] | Category: Bai | Sample: rdb968 | Dims(M,K,N,NNZ): 976,976,128,5632 | Perf: 18.200363 | Verify: SUCCESS
+
+[2026-04-25 16:36:21] | Category: Bai | Sample: rw136 | Dims(M,K,N,NNZ): 144,144,128,479 | Perf: 7.260145 | Verify: SUCCESS
+
+[2026-04-25 16:36:30] | Category: Bai | Sample: rw496 | Dims(M,K,N,NNZ): 496,496,128,1859 | Perf: 11.720235 | Verify: SUCCESS
+
+[2026-04-25 16:36:50] | Category: Bai | Sample: rw5151 | Dims(M,K,N,NNZ): 5152,5152,128,20199 | Perf: 71.101425 | Verify: SUCCESS
+
+[2026-04-25 16:37:00] | Category: Bai | Sample: tols1090 | Dims(M,K,N,NNZ): 1104,1104,128,3546 | Perf: 13.180264 | Verify: SUCCESS
+
+[2026-04-25 16:37:12] | Category: Bai | Sample: tols2000 | Dims(M,K,N,NNZ): 2000,2000,128,5184 | Perf: 18.600372 | Verify: SUCCESS
+
+[2026-04-25 16:37:20] | Category: Bai | Sample: tols340 | Dims(M,K,N,NNZ): 352,352,128,2196 | Perf: 8.200164 | Verify: SUCCESS
+
+[2026-04-25 16:37:37] | Category: Bai | Sample: tols4000 | Dims(M,K,N,NNZ): 4000,4000,128,8784 | Perf: 30.460609 | Verify: SUCCESS
+
+[2026-04-25 16:37:44] | Category: Bai | Sample: tols90 | Dims(M,K,N,NNZ): 96,96,128,1746 | Perf: 6.640133 | Verify: SUCCESS
+
+[2026-04-25 16:37:51] | Category: Bai | Sample: tub100 | Dims(M,K,N,NNZ): 112,112,128,396 | Perf: 6.900138 | Verify: SUCCESS
+
+[2026-04-25 16:38:01] | Category: Bai | Sample: tub1000 | Dims(M,K,N,NNZ): 1008,1008,128,3996 | Perf: 15.500310 | Verify: SUCCESS
+
+[2026-04-25 16:38:11] | Category: Gset | Sample: G10 | Dims(M,K,N,NNZ): 800,800,128,19176 | Perf: 48.060963 | Verify: SUCCESS
+
+[2026-04-25 16:38:20] | Category: Gset | Sample: G11 | Dims(M,K,N,NNZ): 800,800,128,1600 | Perf: 10.900218 | Verify: SUCCESS
+
+[2026-04-25 16:38:29] | Category: Gset | Sample: G12 | Dims(M,K,N,NNZ): 800,800,128,1600 | Perf: 10.680214 | Verify: SUCCESS
+
+[2026-04-25 16:38:38] | Category: Gset | Sample: G13 | Dims(M,K,N,NNZ): 800,800,128,1600 | Perf: 10.800216 | Verify: SUCCESS
+
+[2026-04-25 16:38:49] | Category: Gset | Sample: G18 | Dims(M,K,N,NNZ): 800,800,128,4694 | Perf: 16.280325 | Verify: SUCCESS
+
+[2026-04-25 16:38:58] | Category: Gset | Sample: G19 | Dims(M,K,N,NNZ): 800,800,128,4661 | Perf: 16.280325 | Verify: SUCCESS
+
+[2026-04-25 16:39:09] | Category: Gset | Sample: G20 | Dims(M,K,N,NNZ): 800,800,128,4672 | Perf: 16.700335 | Verify: SUCCESS
+
+[2026-04-25 16:39:18] | Category: Gset | Sample: G21 | Dims(M,K,N,NNZ): 800,800,128,4667 | Perf: 15.580312 | Verify: SUCCESS
+
+[2026-04-25 16:39:31] | Category: Gset | Sample: G27 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.441368 | Verify: SUCCESS
+
+[2026-04-25 16:39:44] | Category: Gset | Sample: G28 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 69.861397 | Verify: SUCCESS
+
+[2026-04-25 16:39:57] | Category: Gset | Sample: G29 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 67.961357 | Verify: SUCCESS
+
+[2026-04-25 16:40:11] | Category: Gset | Sample: G30 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.701370 | Verify: SUCCESS
+
+[2026-04-25 16:40:24] | Category: Gset | Sample: G31 | Dims(M,K,N,NNZ): 2000,2000,128,19990 | Perf: 68.361366 | Verify: SUCCESS
+
+[2026-04-25 16:40:35] | Category: Gset | Sample: G32 | Dims(M,K,N,NNZ): 2000,2000,128,4000 | Perf: 19.500389 | Verify: SUCCESS
+
+[2026-04-25 16:40:47] | Category: Gset | Sample: G33 | Dims(M,K,N,NNZ): 2000,2000,128,4000 | Perf: 19.520390 | Verify: SUCCESS
+
+[2026-04-25 16:40:59] | Category: Gset | Sample: G34 | Dims(M,K,N,NNZ): 2000,2000,128,4000 | Perf: 19.680393 | Verify: SUCCESS
+
+[2026-04-25 16:41:12] | Category: Gset | Sample: G39 | Dims(M,K,N,NNZ): 2000,2000,128,11778 | Perf: 33.160664 | Verify: SUCCESS
+
+[2026-04-25 16:41:25] | Category: Gset | Sample: G40 | Dims(M,K,N,NNZ): 2000,2000,128,11766 | Perf: 33.820675 | Verify: SUCCESS
+
+[2026-04-25 16:41:38] | Category: Gset | Sample: G41 | Dims(M,K,N,NNZ): 2000,2000,128,11785 | Perf: 33.520672 | Verify: SUCCESS
+
+[2026-04-25 16:41:51] | Category: Gset | Sample: G42 | Dims(M,K,N,NNZ): 2000,2000,128,11779 | Perf: 33.140663 | Verify: SUCCESS
+
+[2026-04-25 16:42:10] | Category: Gset | Sample: G56 | Dims(M,K,N,NNZ): 5008,5008,128,12498 | Perf: 47.480949 | Verify: SUCCESS
+
+[2026-04-25 16:42:33] | Category: Gset | Sample: G57 | Dims(M,K,N,NNZ): 5008,5008,128,10000 | Perf: 39.140781 | Verify: SUCCESS
+
+[2026-04-25 16:42:55] | Category: Gset | Sample: G59 | Dims(M,K,N,NNZ): 5008,5008,128,29570 | Perf: 79.881599 | Verify: SUCCESS
+
+[2026-04-25 16:43:05] | Category: Gset | Sample: G6 | Dims(M,K,N,NNZ): 800,800,128,19176 | Perf: 47.960960 | Verify: SUCCESS
+
+[2026-04-25 16:43:29] | Category: Gset | Sample: G61 | Dims(M,K,N,NNZ): 7008,7008,128,17148 | Perf: 63.541271 | Verify: SUCCESS
+
+[2026-04-25 16:43:53] | Category: Gset | Sample: G62 | Dims(M,K,N,NNZ): 7008,7008,128,14000 | Perf: 53.361069 | Verify: SUCCESS
+
+[2026-04-25 16:44:20] | Category: Gset | Sample: G64 | Dims(M,K,N,NNZ): 7008,7008,128,41459 | Perf: 110.042198 | Verify: SUCCESS
+
+[2026-04-25 16:44:47] | Category: Gset | Sample: G65 | Dims(M,K,N,NNZ): 8000,8000,128,16000 | Perf: 60.121201 | Verify: SUCCESS
+
+[2026-04-25 16:45:17] | Category: Gset | Sample: G66 | Dims(M,K,N,NNZ): 9008,9008,128,18000 | Perf: 66.541328 | Verify: SUCCESS
+
+[2026-04-25 16:45:49] | Category: Gset | Sample: G67 | Dims(M,K,N,NNZ): 10000,10000,128,20000 | Perf: 73.221466 | Verify: SUCCESS
+
+[2026-04-25 16:45:59] | Category: Gset | Sample: G7 | Dims(M,K,N,NNZ): 800,800,128,19176 | Perf: 47.320946 | Verify: SUCCESS
+
+[2026-04-25 16:46:10] | Category: Gset | Sample: G8 | Dims(M,K,N,NNZ): 800,800,128,19176 | Perf: 47.880959 | Verify: SUCCESS
+
+[2026-04-25 16:46:20] | Category: Gset | Sample: G9 | Dims(M,K,N,NNZ): 800,800,128,19176 | Perf: 47.440948 | Verify: SUCCESS
+
+[2026-04-25 16:46:29] | Category: HB | Sample: 1138_bus | Dims(M,K,N,NNZ): 1152,1152,128,2596 | Perf: 13.240265 | Verify: SUCCESS
+
+[2026-04-25 16:46:37] | Category: HB | Sample: 494_bus | Dims(M,K,N,NNZ): 496,496,128,1080 | Perf: 9.400188 | Verify: SUCCESS
+
+[2026-04-25 16:46:46] | Category: HB | Sample: 662_bus | Dims(M,K,N,NNZ): 672,672,128,1568 | Perf: 10.160203 | Verify: SUCCESS
+
+[2026-04-25 16:46:55] | Category: HB | Sample: 685_bus | Dims(M,K,N,NNZ): 688,688,128,1967 | Perf: 11.220224 | Verify: SUCCESS
+
+[2026-04-25 16:47:02] | Category: HB | Sample: arc130 | Dims(M,K,N,NNZ): 144,144,128,1282 | Perf: 7.640153 | Verify: SUCCESS
+
+[2026-04-25 16:47:09] | Category: HB | Sample: bcsstk01 | Dims(M,K,N,NNZ): 48,48,128,224 | Perf: 6.420128 | Verify: SUCCESS
+
+[2026-04-25 16:47:16] | Category: HB | Sample: bcsstk02 | Dims(M,K,N,NNZ): 80,80,128,2211 | Perf: 6.940139 | Verify: FAILED
+
+[2026-04-25 16:47:23] | Category: HB | Sample: bcsstk03 | Dims(M,K,N,NNZ): 112,112,128,376 | Perf: 6.700134 | Verify: SUCCESS
+
+[2026-04-25 16:47:30] | Category: HB | Sample: bcsstk04 | Dims(M,K,N,NNZ): 144,144,128,1890 | Perf: 8.020161 | Verify: SUCCESS
+
+[2026-04-25 16:47:37] | Category: HB | Sample: bcsstk05 | Dims(M,K,N,NNZ): 160,160,128,1288 | Perf: 7.000140 | Verify: SUCCESS
+
+[2026-04-25 16:47:46] | Category: HB | Sample: bcsstk06 | Dims(M,K,N,NNZ): 432,432,128,4140 | Perf: 10.580212 | Verify: SUCCESS
+
+[2026-04-25 16:47:54] | Category: HB | Sample: bcsstk07 | Dims(M,K,N,NNZ): 432,432,128,4140 | Perf: 10.380208 | Verify: SUCCESS
+
+[2026-04-25 16:48:04] | Category: HB | Sample: bcsstk08 | Dims(M,K,N,NNZ): 1088,1088,128,7017 | Perf: 18.260365 | Verify: SUCCESS
+
+[2026-04-25 16:48:15] | Category: HB | Sample: bcsstk09 | Dims(M,K,N,NNZ): 1088,1088,128,9760 | Perf: 16.560331 | Verify: SUCCESS
+
+[2026-04-25 16:48:25] | Category: HB | Sample: bcsstk10 | Dims(M,K,N,NNZ): 1088,1088,128,11578 | Perf: 15.400308 | Verify: SUCCESS
+
+[2026-04-25 16:48:36] | Category: HB | Sample: bcsstk11 | Dims(M,K,N,NNZ): 1488,1488,128,17857 | Perf: 20.860416 | Verify: SUCCESS
+
+[2026-04-25 16:48:47] | Category: HB | Sample: bcsstk12 | Dims(M,K,N,NNZ): 1488,1488,128,17857 | Perf: 21.000420 | Verify: SUCCESS
+
+[2026-04-25 16:49:02] | Category: HB | Sample: bcsstk13 | Dims(M,K,N,NNZ): 2016,2016,128,42943 | Perf: 50.721016 | Verify: SUCCESS
+
+[2026-04-25 16:49:14] | Category: HB | Sample: bcsstk14 | Dims(M,K,N,NNZ): 1808,1808,128,32630 | Perf: 30.760614 | Verify: SUCCESS
+
+[2026-04-25 16:49:35] | Category: HB | Sample: bcsstk15 | Dims(M,K,N,NNZ): 3952,3952,128,60882 | Perf: 64.681297 | Verify: SUCCESS
+
+[2026-04-25 16:50:02] | Category: HB | Sample: bcsstk16 | Dims(M,K,N,NNZ): 4896,4896,128,147631 | Perf: 89.821800 | Verify: SUCCESS
+
+[2026-04-25 16:50:49] | Category: HB | Sample: bcsstk17 | Dims(M,K,N,NNZ): 10976,10976,128,219812 | Perf: 156.503128 | Verify: SUCCESS
+
+[2026-04-25 16:51:30] | Category: HB | Sample: bcsstk18 | Dims(M,K,N,NNZ): 11952,11952,128,80519 | Perf: 126.402527 | Verify: SUCCESS
+
+[2026-04-25 16:51:39] | Category: HB | Sample: bcsstk19 | Dims(M,K,N,NNZ): 832,832,128,3835 | Perf: 12.220244 | Verify: SUCCESS
+
+[2026-04-25 16:51:48] | Category: HB | Sample: bcsstk20 | Dims(M,K,N,NNZ): 496,496,128,1810 | Perf: 9.720195 | Verify: SUCCESS
+
+[2026-04-25 16:52:03] | Category: HB | Sample: bcsstk21 | Dims(M,K,N,NNZ): 3600,3600,128,15100 | Perf: 40.780815 | Verify: SUCCESS
+
+[2026-04-25 16:52:11] | Category: HB | Sample: bcsstk22 | Dims(M,K,N,NNZ): 144,144,128,417 | Perf: 6.920138 | Verify: SUCCESS
+
+[2026-04-25 16:52:26] | Category: HB | Sample: bcsstk23 | Dims(M,K,N,NNZ): 3136,3136,128,24156 | Perf: 43.780876 | Verify: SUCCESS
+
+[2026-04-25 16:52:46] | Category: HB | Sample: bcsstk24 | Dims(M,K,N,NNZ): 3568,3568,128,81736 | Perf: 50.221004 | Verify: SUCCESS
+
+[2026-04-25 16:53:38] | Category: HB | Sample: bcsstk25 | Dims(M,K,N,NNZ): 15440,15440,128,133840 | Perf: 178.423569 | Verify: SUCCESS
+
+[2026-04-25 16:53:51] | Category: HB | Sample: bcsstk26 | Dims(M,K,N,NNZ): 1936,1936,128,16129 | Perf: 23.340467 | Verify: SUCCESS
+
+[2026-04-25 16:54:02] | Category: HB | Sample: bcsstk27 | Dims(M,K,N,NNZ): 1232,1232,128,28675 | Perf: 20.900417 | Verify: SUCCESS
+
+[2026-04-25 16:54:24] | Category: HB | Sample: bcsstm01 | Dims(M,K,N,NNZ): 48,48,128,48 | Perf: 6.940139 | Verify: SUCCESS
+
+[2026-04-25 16:54:31] | Category: HB | Sample: bcsstm02 | Dims(M,K,N,NNZ): 80,80,128,66 | Perf: 6.660133 | Verify: SUCCESS
+
+[2026-04-25 16:54:38] | Category: HB | Sample: bcsstm03 | Dims(M,K,N,NNZ): 112,112,128,112 | Perf: 6.440129 | Verify: SUCCESS
+
+[2026-04-25 16:54:45] | Category: HB | Sample: bcsstm04 | Dims(M,K,N,NNZ): 144,144,128,132 | Perf: 6.860137 | Verify: SUCCESS
+
+[2026-04-25 16:54:52] | Category: HB | Sample: bcsstm05 | Dims(M,K,N,NNZ): 160,160,128,153 | Perf: 6.540131 | Verify: SUCCESS
+
+[2026-04-25 16:55:00] | Category: HB | Sample: bcsstm06 | Dims(M,K,N,NNZ): 432,432,128,420 | Perf: 7.680153 | Verify: SUCCESS
+
+[2026-04-25 16:55:08] | Category: HB | Sample: bcsstm07 | Dims(M,K,N,NNZ): 432,432,128,3836 | Perf: 10.120202 | Verify: SUCCESS
+
+[2026-04-25 16:55:18] | Category: HB | Sample: bcsstm08 | Dims(M,K,N,NNZ): 1088,1088,128,1074 | Perf: 9.440188 | Verify: SUCCESS
+
+[2026-04-25 16:55:28] | Category: HB | Sample: bcsstm09 | Dims(M,K,N,NNZ): 1088,1088,128,1083 | Perf: 9.700194 | Verify: SUCCESS
+
+[2026-04-25 16:55:38] | Category: HB | Sample: bcsstm10 | Dims(M,K,N,NNZ): 1088,1088,128,11589 | Perf: 15.360307 | Verify: SUCCESS
+
+[2026-04-25 16:55:48] | Category: HB | Sample: bcsstm11 | Dims(M,K,N,NNZ): 1488,1488,128,1473 | Perf: 10.740214 | Verify: SUCCESS
+
+[2026-04-25 16:55:59] | Category: HB | Sample: bcsstm12 | Dims(M,K,N,NNZ): 1488,1488,128,10566 | Perf: 18.340366 | Verify: SUCCESS
+
+[2026-04-25 16:56:11] | Category: HB | Sample: bcsstm13 | Dims(M,K,N,NNZ): 2016,2016,128,11973 | Perf: 21.640432 | Verify: SUCCESS
+
+[2026-04-25 16:56:20] | Category: HB | Sample: bcsstm19 | Dims(M,K,N,NNZ): 832,832,128,817 | Perf: 8.940179 | Verify: SUCCESS
+
+[2026-04-25 16:56:28] | Category: HB | Sample: bcsstm20 | Dims(M,K,N,NNZ): 496,496,128,485 | Perf: 7.960159 | Verify: SUCCESS
+
+[2026-04-25 16:56:43] | Category: HB | Sample: bcsstm21 | Dims(M,K,N,NNZ): 3600,3600,128,3600 | Perf: 19.440390 | Verify: SUCCESS
+
+[2026-04-25 16:56:50] | Category: HB | Sample: bcsstm22 | Dims(M,K,N,NNZ): 144,144,128,138 | Perf: 6.660133 | Verify: SUCCESS
+
+[2026-04-25 16:57:05] | Category: HB | Sample: bcsstm23 | Dims(M,K,N,NNZ): 3136,3136,128,3134 | Perf: 17.340347 | Verify: SUCCESS
+
+[2026-04-25 16:57:21] | Category: HB | Sample: bcsstm24 | Dims(M,K,N,NNZ): 3568,3568,128,3562 | Perf: 18.800377 | Verify: SUCCESS
+
+[2026-04-25 16:58:06] | Category: HB | Sample: bcsstm25 | Dims(M,K,N,NNZ): 15440,15440,128,15439 | Perf: 62.601254 | Verify: SUCCESS
+
+[2026-04-25 16:58:17] | Category: HB | Sample: bcsstm26 | Dims(M,K,N,NNZ): 1936,1936,128,1922 | Perf: 12.120242 | Verify: SUCCESS
+
+[2026-04-25 16:58:30] | Category: HB | Sample: bcsstm27 | Dims(M,K,N,NNZ): 1232,1232,128,28675 | Perf: 20.860416 | Verify: FAILED
+
+[2026-04-25 16:58:42] | Category: HB | Sample: beacxc | Dims(M,K,N,NNZ): 512,512,128,50409 | Perf: 32.680653 | Verify: SUCCESS
+
+[2026-04-25 16:58:56] | Category: HB | Sample: beaflw | Dims(M,K,N,NNZ): 512,512,128,53403 | Perf: 32.860657 | Verify: SUCCESS
+
+[2026-04-25 16:59:07] | Category: HB | Sample: beause | Dims(M,K,N,NNZ): 512,512,128,44551 | Perf: 28.680574 | Verify: SUCCESS
+
+[2026-04-25 16:59:17] | Category: HB | Sample: bp_0 | Dims(M,K,N,NNZ): 832,832,128,3276 | Perf: 13.020261 | Verify: SUCCESS
+
+[2026-04-25 16:59:25] | Category: HB | Sample: bp_1000 | Dims(M,K,N,NNZ): 832,832,128,4661 | Perf: 13.860277 | Verify: SUCCESS
+
+[2026-04-25 16:59:34] | Category: HB | Sample: bp_1200 | Dims(M,K,N,NNZ): 832,832,128,4726 | Perf: 13.700274 | Verify: SUCCESS
+
+[2026-04-25 16:59:43] | Category: HB | Sample: bp_1400 | Dims(M,K,N,NNZ): 832,832,128,4790 | Perf: 14.080281 | Verify: SUCCESS
+
+[2026-04-25 16:59:52] | Category: HB | Sample: bp_1600 | Dims(M,K,N,NNZ): 832,832,128,4841 | Perf: 13.980280 | Verify: SUCCESS
+
+[2026-04-25 17:00:02] | Category: HB | Sample: bp_200 | Dims(M,K,N,NNZ): 832,832,128,3802 | Perf: 13.120262 | Verify: SUCCESS
+
+[2026-04-25 17:00:10] | Category: HB | Sample: bp_400 | Dims(M,K,N,NNZ): 832,832,128,4028 | Perf: 13.800276 | Verify: SUCCESS
+
+[2026-04-25 17:00:19] | Category: HB | Sample: bp_600 | Dims(M,K,N,NNZ): 832,832,128,4172 | Perf: 13.320267 | Verify: SUCCESS
+
+[2026-04-25 17:00:29] | Category: HB | Sample: bp_800 | Dims(M,K,N,NNZ): 832,832,128,4534 | Perf: 13.900278 | Verify: SUCCESS
+
+[2026-04-25 17:00:36] | Category: HB | Sample: fs_183_1 | Dims(M,K,N,NNZ): 192,192,128,1069 | Perf: 7.980160 | Verify: SUCCESS
+
+[2026-04-25 17:00:45] | Category: HB | Sample: fs_183_3 | Dims(M,K,N,NNZ): 192,192,128,1069 | Perf: 7.720154 | Verify: SUCCESS
+
+[2026-04-25 17:00:53] | Category: HB | Sample: fs_183_4 | Dims(M,K,N,NNZ): 192,192,128,1069 | Perf: 8.000160 | Verify: SUCCESS
+
+[2026-04-25 17:01:00] | Category: HB | Sample: fs_183_6 | Dims(M,K,N,NNZ): 192,192,128,1069 | Perf: 7.880157 | Verify: SUCCESS
+
+[2026-04-25 17:01:09] | Category: HB | Sample: fs_541_1 | Dims(M,K,N,NNZ): 544,544,128,4285 | Perf: 20.300406 | Verify: SUCCESS
+
+[2026-04-25 17:01:18] | Category: HB | Sample: fs_541_2 | Dims(M,K,N,NNZ): 544,544,128,4285 | Perf: 20.640413 | Verify: SUCCESS
+
+[2026-04-25 17:01:27] | Category: HB | Sample: fs_541_3 | Dims(M,K,N,NNZ): 544,544,128,4285 | Perf: 19.220385 | Verify: SUCCESS
+
+[2026-04-25 17:01:37] | Category: HB | Sample: fs_541_4 | Dims(M,K,N,NNZ): 544,544,128,4285 | Perf: 19.020380 | Verify: SUCCESS
+
+[2026-04-25 17:01:46] | Category: HB | Sample: fs_680_1 | Dims(M,K,N,NNZ): 688,688,128,2646 | Perf: 10.540211 | Verify: SUCCESS
+
+[2026-04-25 17:01:54] | Category: HB | Sample: fs_680_2 | Dims(M,K,N,NNZ): 688,688,128,2646 | Perf: 10.400208 | Verify: SUCCESS
+
+[2026-04-25 17:02:03] | Category: HB | Sample: fs_680_3 | Dims(M,K,N,NNZ): 688,688,128,2646 | Perf: 10.700214 | Verify: SUCCESS
+
+[2026-04-25 17:02:12] | Category: HB | Sample: fs_760_1 | Dims(M,K,N,NNZ): 768,768,128,5976 | Perf: 15.060301 | Verify: SUCCESS
+
+[2026-04-25 17:02:21] | Category: HB | Sample: fs_760_2 | Dims(M,K,N,NNZ): 768,768,128,5976 | Perf: 15.380307 | Verify: SUCCESS
+
+[2026-04-25 17:02:31] | Category: HB | Sample: fs_760_3 | Dims(M,K,N,NNZ): 768,768,128,5976 | Perf: 15.080301 | Verify: SUCCESS
+
+[2026-04-25 17:02:53] | Category: HB | Sample: gemat1 | Dims(M,K,N,NNZ): 4944,10608,128,47369 | Perf: 80.021599 | Verify: SUCCESS
+
+[2026-04-25 17:03:14] | Category: HB | Sample: gemat11 | Dims(M,K,N,NNZ): 4944,4944,128,33185 | Perf: 42.760857 | Verify: SUCCESS
+
+[2026-04-25 17:03:34] | Category: HB | Sample: gemat12 | Dims(M,K,N,NNZ): 4944,4944,128,33111 | Perf: 44.320885 | Verify: SUCCESS
+
+[2026-04-25 17:03:44] | Category: HB | Sample: gr_30_30 | Dims(M,K,N,NNZ): 912,912,128,4322 | Perf: 14.500290 | Verify: SUCCESS
+
+[2026-04-25 17:03:53] | Category: HB | Sample: gre_1107 | Dims(M,K,N,NNZ): 1120,1120,128,5664 | Perf: 19.600391 | Verify: SUCCESS
+
+[2026-04-25 17:04:00] | Category: HB | Sample: gre_115 | Dims(M,K,N,NNZ): 128,128,128,421 | Perf: 7.020140 | Verify: SUCCESS
+
+[2026-04-25 17:04:09] | Category: HB | Sample: gre_185 | Dims(M,K,N,NNZ): 192,192,128,1005 | Perf: 7.940159 | Verify: SUCCESS
+
+[2026-04-25 17:04:16] | Category: HB | Sample: gre_216a | Dims(M,K,N,NNZ): 224,224,128,876 | Perf: 8.520170 | Verify: SUCCESS
+
+[2026-04-25 17:04:23] | Category: HB | Sample: gre_216b | Dims(M,K,N,NNZ): 224,224,128,876 | Perf: 8.280166 | Verify: SUCCESS
+
+[2026-04-25 17:04:31] | Category: HB | Sample: gre_343 | Dims(M,K,N,NNZ): 352,352,128,1435 | Perf: 9.400188 | Verify: SUCCESS
+
+[2026-04-25 17:04:40] | Category: HB | Sample: gre_512 | Dims(M,K,N,NNZ): 512,512,128,2192 | Perf: 11.780235 | Verify: SUCCESS
+
+[2026-04-25 17:04:47] | Category: HB | Sample: hor_131 | Dims(M,K,N,NNZ): 448,448,128,4710 | Perf: 11.660233 | Verify: SUCCESS
+
+[2026-04-25 17:04:58] | Category: HB | Sample: illc1033 | Dims(M,K,N,NNZ): 1040,320,128,4732 | Perf: 14.580292 | Verify: SUCCESS
+
+[2026-04-25 17:05:11] | Category: HB | Sample: illc1850 | Dims(M,K,N,NNZ): 1856,720,128,8758 | Perf: 19.040380 | Verify: SUCCESS
+
+[2026-04-25 17:05:19] | Category: HB | Sample: impcol_a | Dims(M,K,N,NNZ): 208,208,128,572 | Perf: 7.020140 | Verify: SUCCESS
+
+[2026-04-25 17:05:26] | Category: HB | Sample: impcol_b | Dims(M,K,N,NNZ): 64,64,128,312 | Perf: 6.480130 | Verify: SUCCESS
+
+[2026-04-25 17:05:33] | Category: HB | Sample: impcol_c | Dims(M,K,N,NNZ): 144,144,128,411 | Perf: 7.100142 | Verify: SUCCESS
+
+[2026-04-25 17:05:41] | Category: HB | Sample: impcol_d | Dims(M,K,N,NNZ): 432,432,128,1339 | Perf: 9.260185 | Verify: SUCCESS
+
+[2026-04-25 17:05:49] | Category: HB | Sample: impcol_e | Dims(M,K,N,NNZ): 240,240,128,1308 | Perf: 8.060162 | Verify: SUCCESS
+
+[2026-04-25 17:06:00] | Category: HB | Sample: jpwh_991 | Dims(M,K,N,NNZ): 992,992,128,6027 | Perf: 18.540371 | Verify: SUCCESS
+
+[2026-04-25 17:06:07] | Category: HB | Sample: lns_131 | Dims(M,K,N,NNZ): 144,144,128,536 | Perf: 7.020140 | Verify: SUCCESS
+
+[2026-04-25 17:06:25] | Category: HB | Sample: lns_3937 | Dims(M,K,N,NNZ): 3952,3952,128,25407 | Perf: 60.681213 | Verify: SUCCESS
+
+[2026-04-25 17:06:34] | Category: HB | Sample: lns_511 | Dims(M,K,N,NNZ): 512,512,128,2796 | Perf: 11.960239 | Verify: FAILED
+
+[2026-04-25 17:06:52] | Category: HB | Sample: lnsp3937 | Dims(M,K,N,NNZ): 3952,3952,128,25407 | Perf: 60.741215 | Verify: FAILED
+
+[2026-04-25 17:06:59] | Category: HB | Sample: lnsp_131 | Dims(M,K,N,NNZ): 144,144,128,536 | Perf: 7.040141 | Verify: FAILED
+
+[2026-04-25 17:07:08] | Category: HB | Sample: lnsp_511 | Dims(M,K,N,NNZ): 512,512,128,2796 | Perf: 11.840237 | Verify: FAILED
+
+[2026-04-25 17:07:15] | Category: HB | Sample: lund_a | Dims(M,K,N,NNZ): 160,160,128,1298 | Perf: 6.900138 | Verify: SUCCESS
+
+[2026-04-25 17:07:22] | Category: HB | Sample: lund_b | Dims(M,K,N,NNZ): 160,160,128,1294 | Perf: 7.340147 | Verify: SUCCESS
+
+[2026-04-25 17:07:32] | Category: HB | Sample: mahindas | Dims(M,K,N,NNZ): 1264,1264,128,7682 | Perf: 17.220345 | Verify: SUCCESS
+
+[2026-04-25 17:07:42] | Category: HB | Sample: mahindas_b | Dims(M,K,N,NNZ): 1264,64,128,162 | Perf: 7.760155 | Verify: SUCCESS
+
+[2026-04-25 17:07:54] | Category: HB | Sample: mbeacxc | Dims(M,K,N,NNZ): 496,496,128,49920 | Perf: 32.460648 | Verify: SUCCESS
+
+[2026-04-25 17:08:06] | Category: HB | Sample: mbeaflw | Dims(M,K,N,NNZ): 496,496,128,49920 | Perf: 32.240646 | Verify: SUCCESS
+
+[2026-04-25 17:08:18] | Category: HB | Sample: mbeause | Dims(M,K,N,NNZ): 496,496,128,41063 | Perf: 27.980560 | Verify: SUCCESS
+
+[2026-04-25 17:08:26] | Category: HB | Sample: mcca | Dims(M,K,N,NNZ): 192,192,128,2659 | Perf: 8.500170 | Verify: SUCCESS
+
+[2026-04-25 17:08:36] | Category: HB | Sample: mcfe | Dims(M,K,N,NNZ): 768,768,128,24382 | Perf: 25.580511 | Verify: SUCCESS
+
+[2026-04-25 17:08:48] | Category: HB | Sample: nnc1374 | Dims(M,K,N,NNZ): 1376,1376,128,8606 | Perf: 20.900417 | Verify: SUCCESS
+
+[2026-04-25 17:08:56] | Category: HB | Sample: nnc261 | Dims(M,K,N,NNZ): 272,272,128,1500 | Perf: 8.100162 | Verify: SUCCESS
+
+[2026-04-25 17:09:04] | Category: HB | Sample: nnc666 | Dims(M,K,N,NNZ): 672,672,128,4044 | Perf: 13.620273 | Verify: SUCCESS
+
+[2026-04-25 17:09:12] | Category: HB | Sample: nos1 | Dims(M,K,N,NNZ): 240,240,128,627 | Perf: 7.880157 | Verify: SUCCESS
+
+[2026-04-25 17:09:22] | Category: HB | Sample: nos2 | Dims(M,K,N,NNZ): 960,960,128,2547 | Perf: 11.880238 | Verify: SUCCESS
+
+[2026-04-25 17:09:31] | Category: HB | Sample: nos3 | Dims(M,K,N,NNZ): 960,960,128,8402 | Perf: 15.360307 | Verify: SUCCESS
+
+[2026-04-25 17:09:39] | Category: HB | Sample: nos4 | Dims(M,K,N,NNZ): 112,112,128,347 | Perf: 6.920138 | Verify: SUCCESS
+
+[2026-04-25 17:09:47] | Category: HB | Sample: nos5 | Dims(M,K,N,NNZ): 480,480,128,2820 | Perf: 11.380228 | Verify: SUCCESS
+
+[2026-04-25 17:09:55] | Category: HB | Sample: nos6 | Dims(M,K,N,NNZ): 688,688,128,1965 | Perf: 10.520210 | Verify: SUCCESS
+
+[2026-04-25 17:10:04] | Category: HB | Sample: nos7 | Dims(M,K,N,NNZ): 736,736,128,2673 | Perf: 13.020261 | Verify: SUCCESS
+
+[2026-04-25 17:10:29] | Category: HB | Sample: orani678 | Dims(M,K,N,NNZ): 2544,2544,128,90158 | Perf: 55.421108 | Verify: SUCCESS
+
+[2026-04-25 17:10:41] | Category: HB | Sample: orani678_b | Dims(M,K,N,NNZ): 2544,96,128,297 | Perf: 10.620213 | Verify: SUCCESS
+
+[2026-04-25 17:10:52] | Category: HB | Sample: orsirr_1 | Dims(M,K,N,NNZ): 1040,1040,128,6858 | Perf: 20.680414 | Verify: FAILED
+
+[2026-04-25 17:11:02] | Category: HB | Sample: orsirr_2 | Dims(M,K,N,NNZ): 896,896,128,5970 | Perf: 18.420368 | Verify: FAILED
+
+[2026-04-25 17:11:15] | Category: HB | Sample: orsreg_1 | Dims(M,K,N,NNZ): 2208,2208,128,14133 | Perf: 41.140823 | Verify: FAILED
+
+[2026-04-25 17:11:27] | Category: HB | Sample: plat1919 | Dims(M,K,N,NNZ): 1920,1920,128,17159 | Perf: 27.900558 | Verify: SUCCESS
+
+[2026-04-25 17:11:35] | Category: HB | Sample: plat362 | Dims(M,K,N,NNZ): 368,368,128,3074 | Perf: 9.460189 | Verify: SUCCESS
+
+[2026-04-25 17:11:47] | Category: HB | Sample: plsk1919 | Dims(M,K,N,NNZ): 1920,1920,128,4831 | Perf: 16.680334 | Verify: SUCCESS
+
+[2026-04-25 17:11:56] | Category: HB | Sample: plskz362 | Dims(M,K,N,NNZ): 368,368,128,880 | Perf: 8.900178 | Verify: SUCCESS
+
+[2026-04-25 17:12:02] | Category: HB | Sample: pores_1 | Dims(M,K,N,NNZ): 32,32,128,180 | Perf: 6.700134 | Verify: SUCCESS
+
+[2026-04-25 17:12:13] | Category: HB | Sample: pores_2 | Dims(M,K,N,NNZ): 1232,1232,128,9613 | Perf: 18.400368 | Verify: FAILED
+
+[2026-04-25 17:12:21] | Category: HB | Sample: pores_3 | Dims(M,K,N,NNZ): 544,544,128,3474 | Perf: 9.780195 | Verify: SUCCESS
+
+[2026-04-25 17:14:08] | Category: HB | Sample: psmigr_1 | Dims(M,K,N,NNZ): 3152,3152,128,543162 | Perf: 267.365356 | Verify: SUCCESS
+
+[2026-04-25 17:15:55] | Category: HB | Sample: psmigr_2 | Dims(M,K,N,NNZ): 3152,3152,128,540022 | Perf: 265.745300 | Verify: SUCCESS
+
+[2026-04-25 17:17:42] | Category: HB | Sample: psmigr_3 | Dims(M,K,N,NNZ): 3152,3152,128,543162 | Perf: 266.285339 | Verify: SUCCESS
+
+[2026-04-25 17:17:50] | Category: HB | Sample: saylr1 | Dims(M,K,N,NNZ): 240,240,128,1128 | Perf: 8.280166 | Verify: FAILED
+
+[2026-04-25 17:17:59] | Category: HB | Sample: saylr3 | Dims(M,K,N,NNZ): 1008,1008,128,2375 | Perf: 13.640273 | Verify: SUCCESS
+
+[2026-04-25 17:18:16] | Category: HB | Sample: saylr4 | Dims(M,K,N,NNZ): 3568,3568,128,12940 | Perf: 46.580933 | Verify: FAILED
+
+[2026-04-25 17:18:26] | Category: HB | Sample: sherman1 | Dims(M,K,N,NNZ): 1008,1008,128,2375 | Perf: 13.560271 | Verify: SUCCESS
+
+[2026-04-25 17:18:36] | Category: HB | Sample: sherman2 | Dims(M,K,N,NNZ): 1088,1088,128,23094 | Perf: 25.320507 | Verify: SUCCESS
+
+[2026-04-25 17:18:56] | Category: HB | Sample: sherman3 | Dims(M,K,N,NNZ): 5008,5008,128,20033 | Perf: 59.201183 | Verify: SUCCESS
+
+[2026-04-25 17:19:06] | Category: HB | Sample: sherman4 | Dims(M,K,N,NNZ): 1104,1104,128,3786 | Perf: 14.340287 | Verify: SUCCESS
+
+[2026-04-25 17:19:22] | Category: HB | Sample: sherman5 | Dims(M,K,N,NNZ): 3312,3312,128,20793 | Perf: 39.020779 | Verify: FAILED
+
+[2026-04-25 17:19:32] | Category: HB | Sample: shl_0 | Dims(M,K,N,NNZ): 672,672,128,1687 | Perf: 12.280246 | Verify: SUCCESS
+
+[2026-04-25 17:19:41] | Category: HB | Sample: shl_200 | Dims(M,K,N,NNZ): 672,672,128,1726 | Perf: 12.000240 | Verify: SUCCESS
+
+[2026-04-25 17:19:50] | Category: HB | Sample: shl_400 | Dims(M,K,N,NNZ): 672,672,128,1712 | Perf: 11.800236 | Verify: SUCCESS
+
+[2026-04-25 17:19:58] | Category: HB | Sample: steam1 | Dims(M,K,N,NNZ): 240,240,128,3762 | Perf: 9.440188 | Verify: SUCCESS
+
+[2026-04-25 17:20:07] | Category: HB | Sample: steam2 | Dims(M,K,N,NNZ): 608,608,128,13760 | Perf: 14.840297 | Verify: SUCCESS
+
+[2026-04-25 17:20:15] | Category: HB | Sample: steam3 | Dims(M,K,N,NNZ): 80,80,128,928 | Perf: 7.280146 | Verify: SUCCESS
+
+[2026-04-25 17:20:22] | Category: HB | Sample: str_0 | Dims(M,K,N,NNZ): 368,368,128,2454 | Perf: 8.620173 | Verify: SUCCESS
+
+[2026-04-25 17:20:30] | Category: HB | Sample: str_200 | Dims(M,K,N,NNZ): 368,368,128,3068 | Perf: 9.400188 | Verify: SUCCESS
+
+[2026-04-25 17:20:39] | Category: HB | Sample: str_400 | Dims(M,K,N,NNZ): 368,368,128,3157 | Perf: 9.280186 | Verify: SUCCESS
+
+[2026-04-25 17:20:47] | Category: HB | Sample: str_600 | Dims(M,K,N,NNZ): 368,368,128,3279 | Perf: 9.100182 | Verify: SUCCESS
+
+[2026-04-25 17:20:59] | Category: HB | Sample: watt_1 | Dims(M,K,N,NNZ): 1856,1856,128,11360 | Perf: 31.800636 | Verify: SUCCESS
+
+[2026-04-25 17:21:11] | Category: HB | Sample: watt_2 | Dims(M,K,N,NNZ): 1856,1856,128,11550 | Perf: 32.640652 | Verify: SUCCESS
+
+[2026-04-25 17:21:21] | Category: HB | Sample: well1033 | Dims(M,K,N,NNZ): 1040,320,128,4732 | Perf: 14.360288 | Verify: SUCCESS
+
+[2026-04-25 17:21:34] | Category: HB | Sample: well1850 | Dims(M,K,N,NNZ): 1856,720,128,8758 | Perf: 19.040380 | Verify: SUCCESS
+
+[2026-04-25 17:21:40] | Category: HB | Sample: west0067 | Dims(M,K,N,NNZ): 80,80,128,294 | Perf: 6.540131 | Verify: SUCCESS
+
+[2026-04-25 17:21:47] | Category: HB | Sample: west0132 | Dims(M,K,N,NNZ): 144,144,128,414 | Perf: 7.320147 | Verify: SUCCESS
+
+[2026-04-25 17:21:55] | Category: HB | Sample: west0156 | Dims(M,K,N,NNZ): 160,160,128,371 | Perf: 7.060141 | Verify: SUCCESS
+
+[2026-04-25 17:22:03] | Category: HB | Sample: west0167 | Dims(M,K,N,NNZ): 176,176,128,507 | Perf: 7.360147 | Verify: SUCCESS
+
+[2026-04-25 17:22:11] | Category: HB | Sample: west0381 | Dims(M,K,N,NNZ): 384,384,128,2157 | Perf: 10.040201 | Verify: SUCCESS
+
+[2026-04-25 17:22:18] | Category: HB | Sample: west0479 | Dims(M,K,N,NNZ): 480,480,128,1910 | Perf: 10.520210 | Verify: SUCCESS
+
+[2026-04-25 17:22:27] | Category: HB | Sample: west0497 | Dims(M,K,N,NNZ): 512,512,128,1727 | Perf: 10.080201 | Verify: SUCCESS
+
+[2026-04-25 17:22:36] | Category: HB | Sample: west0655 | Dims(M,K,N,NNZ): 656,656,128,2854 | Perf: 12.020241 | Verify: SUCCESS
+
+[2026-04-25 17:22:46] | Category: HB | Sample: west0989 | Dims(M,K,N,NNZ): 992,992,128,3537 | Perf: 15.200304 | Verify: SUCCESS
+
+[2026-04-25 17:22:57] | Category: HB | Sample: west1505 | Dims(M,K,N,NNZ): 1520,1520,128,5445 | Perf: 18.900377 | Verify: SUCCESS
+
+[2026-04-25 17:23:09] | Category: HB | Sample: west2021 | Dims(M,K,N,NNZ): 2032,2032,128,7353 | Perf: 24.060482 | Verify: SUCCESS
+
+[2026-04-25 17:23:17] | Category: HB | Sample: wm1 | Dims(M,K,N,NNZ): 208,288,128,2909 | Perf: 8.660173 | Verify: SUCCESS
+
+[2026-04-25 17:23:25] | Category: HB | Sample: wm2 | Dims(M,K,N,NNZ): 208,272,128,2942 | Perf: 8.720175 | Verify: SUCCESS
+
+[2026-04-25 17:23:33] | Category: HB | Sample: wm3 | Dims(M,K,N,NNZ): 208,272,128,2948 | Perf: 8.680174 | Verify: SUCCESS
+
+[2026-04-25 17:23:42] | Category: HB | Sample: young3c | Dims(M,K,N,NNZ): 848,848,128,3988 | Perf: 13.820276 | Verify: SUCCESS
+
+[2026-04-25 17:23:56] | Category: HB | Sample: zenios | Dims(M,K,N,NNZ): 2880,2880,128,15032 | Perf: 23.860477 | Verify: SUCCESS
+
+[2026-04-25 17:29:03] | Category: JGD_Homology | Sample: D6-6 | Dims(M,K,N,NNZ): 120576,23744,128,146880 | Perf: 157.723160 | Verify: SUCCESS
+
+[2026-04-25 17:29:11] | Category: JGD_Homology | Sample: ch3-3-b1 | Dims(M,K,N,NNZ): 32,16,128,36 | Perf: 6.140123 | Verify: SUCCESS
+
+[2026-04-25 17:29:18] | Category: JGD_Homology | Sample: ch3-3-b2 | Dims(M,K,N,NNZ): 16,32,128,18 | Perf: 5.820117 | Verify: SUCCESS
+
+[2026-04-25 17:29:26] | Category: JGD_Homology | Sample: ch4-4-b1 | Dims(M,K,N,NNZ): 80,16,128,144 | Perf: 6.740135 | Verify: SUCCESS
+
+[2026-04-25 17:29:34] | Category: JGD_Homology | Sample: ch4-4-b2 | Dims(M,K,N,NNZ): 96,80,128,288 | Perf: 6.880137 | Verify: SUCCESS
+
+[2026-04-25 17:29:41] | Category: JGD_Homology | Sample: ch4-4-b3 | Dims(M,K,N,NNZ): 32,96,128,96 | Perf: 6.340127 | Verify: SUCCESS
+
+[2026-04-25 17:29:49] | Category: JGD_Homology | Sample: ch5-5-b1 | Dims(M,K,N,NNZ): 208,32,128,400 | Perf: 6.540131 | Verify: SUCCESS
+
+[2026-04-25 17:29:57] | Category: JGD_Homology | Sample: ch5-5-b2 | Dims(M,K,N,NNZ): 608,208,128,1800 | Perf: 9.720195 | Verify: SUCCESS
+
+[2026-04-25 17:30:06] | Category: JGD_Homology | Sample: ch5-5-b3 | Dims(M,K,N,NNZ): 608,608,128,2400 | Perf: 12.660254 | Verify: SUCCESS
+
+[2026-04-25 17:30:13] | Category: JGD_Homology | Sample: ch5-5-b4 | Dims(M,K,N,NNZ): 128,608,128,600 | Perf: 7.820157 | Verify: SUCCESS
+
+[2026-04-25 17:30:21] | Category: JGD_Homology | Sample: ch6-6-b1 | Dims(M,K,N,NNZ): 464,48,128,900 | Perf: 16.020321 | Verify: SUCCESS
+
+[2026-04-25 17:30:34] | Category: JGD_Homology | Sample: ch6-6-b2 | Dims(M,K,N,NNZ): 2400,464,128,7200 | Perf: 23.820477 | Verify: SUCCESS
+
+[2026-04-25 17:30:55] | Category: JGD_Homology | Sample: ch6-6-b3 | Dims(M,K,N,NNZ): 5408,2400,128,21600 | Perf: 60.261204 | Verify: SUCCESS
+
+[2026-04-25 17:31:12] | Category: JGD_Homology | Sample: ch6-6-b4 | Dims(M,K,N,NNZ): 4320,5408,128,21600 | Perf: 62.241245 | Verify: SUCCESS
+
+[2026-04-25 17:31:22] | Category: JGD_Homology | Sample: ch6-6-b5 | Dims(M,K,N,NNZ): 720,4320,128,4320 | Perf: 19.820396 | Verify: SUCCESS
+
+[2026-04-25 17:31:31] | Category: JGD_Homology | Sample: ch7-6-b1 | Dims(M,K,N,NNZ): 640,48,128,1260 | Perf: 19.620392 | Verify: SUCCESS
+
+[2026-04-25 17:31:49] | Category: JGD_Homology | Sample: ch7-6-b2 | Dims(M,K,N,NNZ): 4208,640,128,12600 | Perf: 37.480751 | Verify: SUCCESS
+
+[2026-04-25 17:32:28] | Category: JGD_Homology | Sample: ch7-6-b3 | Dims(M,K,N,NNZ): 12608,4208,128,50400 | Perf: 132.722656 | Verify: SUCCESS
+
+[2026-04-25 17:33:15] | Category: JGD_Homology | Sample: ch7-6-b4 | Dims(M,K,N,NNZ): 15120,12608,128,75600 | Perf: 205.264099 | Verify: SUCCESS
+
+[2026-04-25 17:33:36] | Category: JGD_Homology | Sample: ch7-6-b5 | Dims(M,K,N,NNZ): 5040,15120,128,30240 | Perf: 98.641975 | Verify: SUCCESS
+
+[2026-04-25 17:33:45] | Category: JGD_Homology | Sample: ch7-7-b1 | Dims(M,K,N,NNZ): 896,64,128,1764 | Perf: 19.360388 | Verify: SUCCESS
+
+[2026-04-25 17:34:12] | Category: JGD_Homology | Sample: ch7-7-b2 | Dims(M,K,N,NNZ): 7360,896,128,22050 | Perf: 66.401329 | Verify: SUCCESS
+
+[2026-04-25 17:36:06] | Category: JGD_Homology | Sample: ch7-7-b5 | Dims(M,K,N,NNZ): 35280,52928,128,211680 | Perf: 285.685699 | Verify: SUCCESS
+
+[2026-04-25 17:36:16] | Category: JGD_Homology | Sample: ch7-8-b1 | Dims(M,K,N,NNZ): 1184,64,128,2352 | Perf: 30.660614 | Verify: SUCCESS
+
+[2026-04-25 17:36:55] | Category: JGD_Homology | Sample: ch7-8-b2 | Dims(M,K,N,NNZ): 11760,1184,128,35280 | Perf: 106.082123 | Verify: SUCCESS
+
+[2026-04-25 17:39:40] | Category: JGD_Homology | Sample: ch7-8-b3 | Dims(M,K,N,NNZ): 58800,11760,128,235200 | Perf: 308.006165 | Verify: SUCCESS
+
+[2026-04-25 17:47:00] | Category: JGD_Homology | Sample: ch7-8-b4 | Dims(M,K,N,NNZ): 141120,58800,128,705600 | Perf: 914.138306 | Verify: SUCCESS
+
+[2026-04-25 17:47:11] | Category: JGD_Homology | Sample: ch7-9-b1 | Dims(M,K,N,NNZ): 1520,64,128,3024 | Perf: 18.760376 | Verify: SUCCESS
+
+[2026-04-25 17:48:07] | Category: JGD_Homology | Sample: ch7-9-b2 | Dims(M,K,N,NNZ): 17648,1520,128,52920 | Perf: 159.343185 | Verify: SUCCESS
+
+[2026-04-25 17:53:05] | Category: JGD_Homology | Sample: ch7-9-b3 | Dims(M,K,N,NNZ): 105840,17648,128,423360 | Perf: 570.691406 | Verify: SUCCESS
+
+[2026-04-25 17:53:16] | Category: JGD_Homology | Sample: ch8-8-b1 | Dims(M,K,N,NNZ): 1568,64,128,3136 | Perf: 23.820477 | Verify: SUCCESS
+
+[2026-04-25 17:54:17] | Category: JGD_Homology | Sample: ch8-8-b2 | Dims(M,K,N,NNZ): 18816,1568,128,56448 | Perf: 170.703415 | Verify: SUCCESS
+
+[2026-04-25 17:59:52] | Category: JGD_Homology | Sample: ch8-8-b3 | Dims(M,K,N,NNZ): 117600,18816,128,470400 | Perf: 636.612732 | Verify: SUCCESS
+
+[2026-04-25 18:00:00] | Category: JGD_Homology | Sample: cis-n4c6-b1 | Dims(M,K,N,NNZ): 224,32,128,420 | Perf: 9.040181 | Verify: SUCCESS
+
+[2026-04-25 18:00:28] | Category: JGD_Homology | Sample: cis-n4c6-b13 | Dims(M,K,N,NNZ): 6304,25616,128,88200 | Perf: 261.145233 | Verify: SUCCESS
+
+[2026-04-25 18:00:38] | Category: JGD_Homology | Sample: cis-n4c6-b14 | Dims(M,K,N,NNZ): 928,6304,128,13800 | Perf: 46.660934 | Verify: SUCCESS
+
+[2026-04-25 18:00:45] | Category: JGD_Homology | Sample: cis-n4c6-b15 | Dims(M,K,N,NNZ): 64,928,128,960 | Perf: 20.800417 | Verify: SUCCESS
+
+[2026-04-25 18:00:56] | Category: JGD_Homology | Sample: cis-n4c6-b2 | Dims(M,K,N,NNZ): 1344,224,128,3990 | Perf: 15.920319 | Verify: SUCCESS
+
+[2026-04-25 18:01:18] | Category: JGD_Homology | Sample: cis-n4c6-b3 | Dims(M,K,N,NNZ): 5984,1344,128,23880 | Perf: 65.541313 | Verify: SUCCESS
+
+[2026-04-25 18:02:18] | Category: JGD_Homology | Sample: cis-n4c6-b4 | Dims(M,K,N,NNZ): 20064,5984,128,100290 | Perf: 268.805389 | Verify: SUCCESS
+
+[2026-04-25 18:02:25] | Category: JGD_Homology | Sample: klein-b1 | Dims(M,K,N,NNZ): 32,16,128,60 | Perf: 5.700114 | Verify: SUCCESS
+
+[2026-04-25 18:02:32] | Category: JGD_Homology | Sample: klein-b2 | Dims(M,K,N,NNZ): 32,32,128,60 | Perf: 6.500130 | Verify: SUCCESS
+
+[2026-04-25 18:02:44] | Category: JGD_Homology | Sample: lutz30-23-b6 | Dims(M,K,N,NNZ): 1728,3008,128,12012 | Perf: 39.220783 | Verify: SUCCESS
+
+[2026-04-25 18:02:53] | Category: JGD_Homology | Sample: mk10-b1 | Dims(M,K,N,NNZ): 640,48,128,1260 | Perf: 17.880358 | Verify: SUCCESS
+
+[2026-04-25 18:03:08] | Category: JGD_Homology | Sample: mk10-b2 | Dims(M,K,N,NNZ): 3152,640,128,9450 | Perf: 29.860598 | Verify: SUCCESS
+
+[2026-04-25 18:03:27] | Category: JGD_Homology | Sample: mk10-b3 | Dims(M,K,N,NNZ): 4736,3152,128,18900 | Perf: 53.981079 | Verify: SUCCESS
+
+[2026-04-25 18:03:37] | Category: JGD_Homology | Sample: mk10-b4 | Dims(M,K,N,NNZ): 960,4736,128,4725 | Perf: 21.980440 | Verify: SUCCESS
+
+[2026-04-25 18:03:47] | Category: JGD_Homology | Sample: mk11-b1 | Dims(M,K,N,NNZ): 992,64,128,1980 | Perf: 21.640432 | Verify: SUCCESS
+
+[2026-04-25 18:04:12] | Category: JGD_Homology | Sample: mk11-b2 | Dims(M,K,N,NNZ): 6944,992,128,20790 | Perf: 62.361248 | Verify: SUCCESS
+
+[2026-04-25 18:05:04] | Category: JGD_Homology | Sample: mk11-b3 | Dims(M,K,N,NNZ): 17328,6944,128,69300 | Perf: 180.763611 | Verify: SUCCESS
+
+[2026-04-25 18:05:39] | Category: JGD_Homology | Sample: mk11-b4 | Dims(M,K,N,NNZ): 10400,17328,128,51975 | Perf: 152.103043 | Verify: SUCCESS
+
+[2026-04-25 18:06:11] | Category: JGD_Homology | Sample: mk11-b4b | Dims(M,K,N,NNZ): 9456,17328,128,47250 | Perf: 139.302780 | Verify: SUCCESS
+
+[2026-04-25 18:06:22] | Category: JGD_Homology | Sample: mk12-b1 | Dims(M,K,N,NNZ): 1488,80,128,2970 | Perf: 32.200645 | Verify: SUCCESS
+
+[2026-04-25 18:07:07] | Category: JGD_Homology | Sample: mk12-b2 | Dims(M,K,N,NNZ): 13872,1488,128,41580 | Perf: 125.182503 | Verify: SUCCESS
+
+[2026-04-25 18:09:40] | Category: JGD_Homology | Sample: mk12-b3 | Dims(M,K,N,NNZ): 51984,13872,128,207900 | Perf: 263.385254 | Verify: SUCCESS
+
+[2026-04-25 18:13:06] | Category: JGD_Homology | Sample: mk12-b4 | Dims(M,K,N,NNZ): 62384,51984,128,311850 | Perf: 405.868103 | Verify: SUCCESS
+
+[2026-04-25 18:13:45] | Category: JGD_Homology | Sample: mk12-b5 | Dims(M,K,N,NNZ): 10400,62384,128,62370 | Perf: 209.484192 | Verify: SUCCESS
+
+[2026-04-25 18:13:53] | Category: JGD_Homology | Sample: mk9-b1 | Dims(M,K,N,NNZ): 384,48,128,756 | Perf: 12.300246 | Verify: SUCCESS
+
+[2026-04-25 18:14:04] | Category: JGD_Homology | Sample: mk9-b2 | Dims(M,K,N,NNZ): 1264,384,128,3780 | Perf: 15.580312 | Verify: SUCCESS
+
+[2026-04-25 18:14:13] | Category: JGD_Homology | Sample: mk9-b3 | Dims(M,K,N,NNZ): 960,1264,128,3780 | Perf: 15.760315 | Verify: SUCCESS
+
+[2026-04-25 18:14:20] | Category: JGD_Homology | Sample: n2c6-b1 | Dims(M,K,N,NNZ): 112,16,128,210 | Perf: 6.760135 | Verify: SUCCESS
+
+[2026-04-25 18:14:27] | Category: JGD_Homology | Sample: n2c6-b10 | Dims(M,K,N,NNZ): 32,320,128,330 | Perf: 7.200144 | Verify: SUCCESS
+
+[2026-04-25 18:14:35] | Category: JGD_Homology | Sample: n2c6-b2 | Dims(M,K,N,NNZ): 464,112,128,1365 | Perf: 9.240185 | Verify: SUCCESS
+
+[2026-04-25 18:14:45] | Category: JGD_Homology | Sample: n2c6-b3 | Dims(M,K,N,NNZ): 1376,464,128,5460 | Perf: 19.680393 | Verify: SUCCESS
+
+[2026-04-25 18:15:00] | Category: JGD_Homology | Sample: n2c6-b4 | Dims(M,K,N,NNZ): 3008,1376,128,15015 | Perf: 44.780895 | Verify: SUCCESS
+
+[2026-04-25 18:15:20] | Category: JGD_Homology | Sample: n2c6-b5 | Dims(M,K,N,NNZ): 4960,3008,128,29670 | Perf: 83.381668 | Verify: SUCCESS
+
+[2026-04-25 18:15:43] | Category: JGD_Homology | Sample: n2c6-b6 | Dims(M,K,N,NNZ): 5728,4960,128,40005 | Perf: 111.722237 | Verify: SUCCESS
+
+[2026-04-25 18:16:01] | Category: JGD_Homology | Sample: n2c6-b7 | Dims(M,K,N,NNZ): 4000,5728,128,31920 | Perf: 91.701836 | Verify: SUCCESS
+
+[2026-04-25 18:16:12] | Category: JGD_Homology | Sample: n2c6-b8 | Dims(M,K,N,NNZ): 1472,4000,128,13230 | Perf: 42.440849 | Verify: SUCCESS
+
+[2026-04-25 18:16:20] | Category: JGD_Homology | Sample: n2c6-b9 | Dims(M,K,N,NNZ): 320,1472,128,3060 | Perf: 14.420288 | Verify: SUCCESS
+
+[2026-04-25 18:16:27] | Category: JGD_Homology | Sample: n3c4-b1 | Dims(M,K,N,NNZ): 16,16,128,30 | Perf: 5.100102 | Verify: SUCCESS
+
+[2026-04-25 18:16:34] | Category: JGD_Homology | Sample: n3c4-b2 | Dims(M,K,N,NNZ): 32,16,128,60 | Perf: 5.720114 | Verify: SUCCESS
+
+[2026-04-25 18:16:41] | Category: JGD_Homology | Sample: n3c4-b3 | Dims(M,K,N,NNZ): 16,32,128,60 | Perf: 6.060121 | Verify: SUCCESS
+
+[2026-04-25 18:16:48] | Category: JGD_Homology | Sample: n3c4-b4 | Dims(M,K,N,NNZ): 16,16,128,30 | Perf: 4.960099 | Verify: SUCCESS
+
+[2026-04-25 18:16:55] | Category: JGD_Homology | Sample: n3c5-b1 | Dims(M,K,N,NNZ): 48,16,128,90 | Perf: 6.000120 | Verify: SUCCESS
+
+[2026-04-25 18:17:02] | Category: JGD_Homology | Sample: n3c5-b2 | Dims(M,K,N,NNZ): 128,48,128,360 | Perf: 6.980140 | Verify: SUCCESS
+
+[2026-04-25 18:17:10] | Category: JGD_Homology | Sample: n3c5-b3 | Dims(M,K,N,NNZ): 224,128,128,840 | Perf: 8.160163 | Verify: SUCCESS
+
+[2026-04-25 18:17:18] | Category: JGD_Homology | Sample: n3c5-b4 | Dims(M,K,N,NNZ): 256,224,128,1260 | Perf: 9.160183 | Verify: SUCCESS
+
+[2026-04-25 18:17:26] | Category: JGD_Homology | Sample: n3c5-b5 | Dims(M,K,N,NNZ): 224,256,128,1260 | Perf: 8.660173 | Verify: SUCCESS
+
+[2026-04-25 18:17:34] | Category: JGD_Homology | Sample: n3c5-b6 | Dims(M,K,N,NNZ): 128,224,128,840 | Perf: 8.120162 | Verify: SUCCESS
+
+[2026-04-25 18:17:41] | Category: JGD_Homology | Sample: n3c5-b7 | Dims(M,K,N,NNZ): 32,128,128,240 | Perf: 6.880137 | Verify: SUCCESS
+
+[2026-04-25 18:17:48] | Category: JGD_Homology | Sample: n3c6-b1 | Dims(M,K,N,NNZ): 112,112,128,210 | Perf: 6.340127 | Verify: SUCCESS
+
+[2026-04-25 18:17:57] | Category: JGD_Homology | Sample: n3c6-b10 | Dims(M,K,N,NNZ): 688,2512,128,7425 | Perf: 25.960520 | Verify: SUCCESS
+
+[2026-04-25 18:18:05] | Category: JGD_Homology | Sample: n3c6-b11 | Dims(M,K,N,NNZ): 64,688,128,720 | Perf: 8.440168 | Verify: SUCCESS
+
+[2026-04-25 18:18:13] | Category: JGD_Homology | Sample: n3c6-b2 | Dims(M,K,N,NNZ): 464,112,128,1365 | Perf: 9.240185 | Verify: SUCCESS
+
+[2026-04-25 18:18:29] | Category: JGD_Homology | Sample: n3c6-b3 | Dims(M,K,N,NNZ): 1376,464,128,5460 | Perf: 19.900398 | Verify: SUCCESS
+
+[2026-04-25 18:18:44] | Category: JGD_Homology | Sample: n3c6-b4 | Dims(M,K,N,NNZ): 3008,1376,128,15015 | Perf: 44.920898 | Verify: SUCCESS
+
+[2026-04-25 18:19:04] | Category: JGD_Homology | Sample: n3c6-b5 | Dims(M,K,N,NNZ): 5008,3008,128,30030 | Perf: 84.561691 | Verify: SUCCESS
+
+[2026-04-25 18:19:28] | Category: JGD_Homology | Sample: n3c6-b6 | Dims(M,K,N,NNZ): 6448,5008,128,45045 | Perf: 124.522491 | Verify: SUCCESS
+
+[2026-04-25 18:19:53] | Category: JGD_Homology | Sample: n3c6-b7 | Dims(M,K,N,NNZ): 6448,6448,128,51480 | Perf: 141.502823 | Verify: SUCCESS
+
+[2026-04-25 18:20:14] | Category: JGD_Homology | Sample: n3c6-b8 | Dims(M,K,N,NNZ): 4944,6448,128,44415 | Perf: 122.462448 | Verify: SUCCESS
+
+[2026-04-25 18:20:28] | Category: JGD_Homology | Sample: n3c6-b9 | Dims(M,K,N,NNZ): 2512,4944,128,25110 | Perf: 72.101440 | Verify: SUCCESS
+
+[2026-04-25 18:20:36] | Category: JGD_Homology | Sample: n4c5-b1 | Dims(M,K,N,NNZ): 112,16,128,210 | Perf: 6.540131 | Verify: SUCCESS
+
+[2026-04-25 18:20:43] | Category: JGD_Homology | Sample: n4c5-b10 | Dims(M,K,N,NNZ): 128,640,128,1320 | Perf: 9.560191 | Verify: SUCCESS
+
+[2026-04-25 18:20:50] | Category: JGD_Homology | Sample: n4c5-b11 | Dims(M,K,N,NNZ): 16,128,128,120 | Perf: 7.000140 | Verify: SUCCESS
+
+[2026-04-25 18:20:58] | Category: JGD_Homology | Sample: n4c5-b2 | Dims(M,K,N,NNZ): 464,112,128,1365 | Perf: 9.520190 | Verify: SUCCESS
+
+[2026-04-25 18:21:08] | Category: JGD_Homology | Sample: n4c5-b3 | Dims(M,K,N,NNZ): 1360,464,128,5400 | Perf: 19.480391 | Verify: SUCCESS
+
+[2026-04-25 18:21:23] | Category: JGD_Homology | Sample: n4c5-b4 | Dims(M,K,N,NNZ): 2864,1360,128,14260 | Perf: 43.420868 | Verify: SUCCESS
+
+[2026-04-25 18:21:42] | Category: JGD_Homology | Sample: n4c5-b5 | Dims(M,K,N,NNZ): 4352,2864,128,26040 | Perf: 75.741516 | Verify: SUCCESS
+
+[2026-04-25 18:22:02] | Category: JGD_Homology | Sample: n4c5-b6 | Dims(M,K,N,NNZ): 4736,4352,128,33145 | Perf: 97.041939 | Verify: SUCCESS
+
+[2026-04-25 18:22:20] | Category: JGD_Homology | Sample: n4c5-b7 | Dims(M,K,N,NNZ): 3648,4736,128,29080 | Perf: 86.261726 | Verify: SUCCESS
+
+[2026-04-25 18:22:32] | Category: JGD_Homology | Sample: n4c5-b8 | Dims(M,K,N,NNZ): 1904,3648,128,17055 | Perf: 54.001080 | Verify: SUCCESS
+
+[2026-04-25 18:22:41] | Category: JGD_Homology | Sample: n4c5-b9 | Dims(M,K,N,NNZ): 640,1904,128,6300 | Perf: 23.680473 | Verify: SUCCESS
+
+[2026-04-25 18:22:48] | Category: JGD_Homology | Sample: n4c6-b1 | Dims(M,K,N,NNZ): 224,32,128,420 | Perf: 9.520190 | Verify: SUCCESS
+
+[2026-04-25 18:24:26] | Category: JGD_Homology | Sample: n4c6-b12 | Dims(M,K,N,NNZ): 25616,69248,128,332865 | Perf: 474.469482 | Verify: SUCCESS
+
+[2026-04-25 18:24:53] | Category: JGD_Homology | Sample: n4c6-b13 | Dims(M,K,N,NNZ): 6304,25616,128,88200 | Perf: 261.145233 | Verify: SUCCESS
+
+[2026-04-25 18:25:03] | Category: JGD_Homology | Sample: n4c6-b14 | Dims(M,K,N,NNZ): 928,6304,128,13800 | Perf: 46.480930 | Verify: SUCCESS
+
+[2026-04-25 18:25:11] | Category: JGD_Homology | Sample: n4c6-b15 | Dims(M,K,N,NNZ): 64,928,128,960 | Perf: 9.280186 | Verify: SUCCESS
+
+[2026-04-25 18:25:22] | Category: JGD_Homology | Sample: n4c6-b2 | Dims(M,K,N,NNZ): 1344,224,128,3990 | Perf: 15.780315 | Verify: SUCCESS
+
+[2026-04-25 18:25:44] | Category: JGD_Homology | Sample: n4c6-b3 | Dims(M,K,N,NNZ): 5984,1344,128,23880 | Perf: 65.261307 | Verify: SUCCESS
+
+[2026-04-25 18:26:45] | Category: JGD_Homology | Sample: n4c6-b4 | Dims(M,K,N,NNZ): 20064,5984,128,100290 | Perf: 268.105377 | Verify: SUCCESS
+
+[2026-04-25 18:29:19] | Category: JGD_Homology | Sample: n4c6-b5 | Dims(M,K,N,NNZ): 51824,20064,128,310878 | Perf: 413.028259 | Verify: SUCCESS
+
+[2026-04-25 18:30:22] | Category: JGD_Homology | Sample: shar_te2-b1 | Dims(M,K,N,NNZ): 17168,288,128,34320 | Perf: 117.902359 | Verify: SUCCESS
+
+[2026-04-25 18:30:58] | Category: .ipynb_checkpoints | Sample: Reuters911_Day_53-checkpoint | Dims(M,K,N,NNZ): 13344,13344,128,3465 | Perf: 27.100542 | Verify: SUCCESS
+
+[2026-04-25 18:31:05] | Category: Pajek | Sample: Cities | Dims(M,K,N,NNZ): 64,48,128,1342 | Perf: 6.720134 | Verify: SUCCESS
+
+[2026-04-25 18:32:29] | Category: Pajek | Sample: EAT_RS | Dims(M,K,N,NNZ): 23232,23232,128,325592 | Perf: 482.509644 | Verify: SUCCESS
+
+[2026-04-25 18:33:51] | Category: Pajek | Sample: EAT_SR | Dims(M,K,N,NNZ): 23232,23232,128,325589 | Perf: 473.289459 | Verify: SUCCESS
+
+[2026-04-25 18:34:27] | Category: Pajek | Sample: FA | Dims(M,K,N,NNZ): 10624,10624,128,72176 | Perf: 209.664200 | Verify: SUCCESS
+
+[2026-04-25 18:34:36] | Category: Pajek | Sample: GD00_c | Dims(M,K,N,NNZ): 640,640,128,1041 | Perf: 9.540191 | Verify: SUCCESS
+
+[2026-04-25 18:34:45] | Category: Pajek | Sample: GD01_Acap | Dims(M,K,N,NNZ): 960,960,128,645 | Perf: 8.400168 | Verify: SUCCESS
+
+[2026-04-25 18:34:53] | Category: Pajek | Sample: GD01_a | Dims(M,K,N,NNZ): 320,320,128,645 | Perf: 7.800156 | Verify: SUCCESS
+
+[2026-04-25 18:35:00] | Category: Pajek | Sample: GD01_c | Dims(M,K,N,NNZ): 48,48,128,135 | Perf: 6.520131 | Verify: SUCCESS
+
+[2026-04-25 18:35:10] | Category: Pajek | Sample: GD96_a | Dims(M,K,N,NNZ): 1104,1104,128,1677 | Perf: 12.660254 | Verify: SUCCESS
+
+[2026-04-25 18:35:17] | Category: Pajek | Sample: GD97_b | Dims(M,K,N,NNZ): 48,48,128,132 | Perf: 6.560131 | Verify: SUCCESS
+
+[2026-04-25 18:35:25] | Category: Pajek | Sample: GD97_c | Dims(M,K,N,NNZ): 464,464,128,460 | Perf: 7.980160 | Verify: SUCCESS
+
+[2026-04-25 18:35:32] | Category: Pajek | Sample: GD99_b | Dims(M,K,N,NNZ): 64,64,128,127 | Perf: 6.520131 | Verify: SUCCESS
+
+[2026-04-25 18:35:40] | Category: Pajek | Sample: Journals | Dims(M,K,N,NNZ): 128,128,128,6096 | Perf: 7.920158 | Verify: SUCCESS
+
+[2026-04-25 18:36:09] | Category: Pajek | Sample: Lederberg | Dims(M,K,N,NNZ): 8848,8848,128,41601 | Perf: 128.542572 | Verify: SUCCESS
+
+[2026-04-25 18:36:25] | Category: Pajek | Sample: ODLIS | Dims(M,K,N,NNZ): 2912,2912,128,18246 | Perf: 42.840858 | Verify: SUCCESS
+
+[2026-04-25 18:36:32] | Category: Pajek | Sample: Ragusa16 | Dims(M,K,N,NNZ): 32,32,128,81 | Perf: 6.240125 | Verify: SUCCESS
+
+[2026-04-25 18:36:39] | Category: Pajek | Sample: Ragusa18 | Dims(M,K,N,NNZ): 32,32,128,64 | Perf: 5.520111 | Verify: SUCCESS
+
+[2026-04-25 18:37:30] | Category: Pajek | Sample: Reuters911 | Dims(M,K,N,NNZ): 13344,13344,128,148038 | Perf: 197.523956 | Verify: SUCCESS
+
+[2026-04-25 18:38:07] | Category: Pajek | Sample: Reuters911_Day_01 | Dims(M,K,N,NNZ): 13344,13344,128,9318 | Perf: 50.181004 | Verify: SUCCESS
+
+[2026-04-25 18:38:44] | Category: Pajek | Sample: Reuters911_Day_02 | Dims(M,K,N,NNZ): 13344,13344,128,13919 | Perf: 65.101303 | Verify: SUCCESS
+
+[2026-04-25 18:39:21] | Category: Pajek | Sample: Reuters911_Day_03 | Dims(M,K,N,NNZ): 13344,13344,128,7451 | Perf: 41.460831 | Verify: SUCCESS
+
+[2026-04-25 18:39:57] | Category: Pajek | Sample: Reuters911_Day_04 | Dims(M,K,N,NNZ): 13344,13344,128,6232 | Perf: 37.200745 | Verify: SUCCESS
+
+[2026-04-25 18:40:34] | Category: Pajek | Sample: Reuters911_Day_05 | Dims(M,K,N,NNZ): 13344,13344,128,8834 | Perf: 49.360989 | Verify: SUCCESS
+
+[2026-04-25 18:41:11] | Category: Pajek | Sample: Reuters911_Day_06 | Dims(M,K,N,NNZ): 13344,13344,128,7945 | Perf: 46.820938 | Verify: SUCCESS
+
+[2026-04-25 18:41:47] | Category: Pajek | Sample: Reuters911_Day_07 | Dims(M,K,N,NNZ): 13344,13344,128,4602 | Perf: 30.800615 | Verify: SUCCESS
+
+[2026-04-25 18:42:23] | Category: Pajek | Sample: Reuters911_Day_08 | Dims(M,K,N,NNZ): 13344,13344,128,3437 | Perf: 25.260506 | Verify: SUCCESS
+
+[2026-04-25 18:42:59] | Category: Pajek | Sample: Reuters911_Day_09 | Dims(M,K,N,NNZ): 13344,13344,128,3884 | Perf: 28.040562 | Verify: SUCCESS
+
+[2026-04-25 18:43:35] | Category: Pajek | Sample: Reuters911_Day_10 | Dims(M,K,N,NNZ): 13344,13344,128,4705 | Perf: 19.320387 | Verify: SUCCESS
+
+[2026-04-25 18:44:11] | Category: Pajek | Sample: Reuters911_Day_11 | Dims(M,K,N,NNZ): 13344,13344,128,5120 | Perf: 33.500671 | Verify: SUCCESS
+
+[2026-04-25 18:44:47] | Category: Pajek | Sample: Reuters911_Day_12 | Dims(M,K,N,NNZ): 13344,13344,128,2775 | Perf: 23.300467 | Verify: SUCCESS
+
+[2026-04-25 18:45:23] | Category: Pajek | Sample: Reuters911_Day_13 | Dims(M,K,N,NNZ): 13344,13344,128,2132 | Perf: 19.880398 | Verify: SUCCESS
+
+[2026-04-25 18:45:59] | Category: Pajek | Sample: Reuters911_Day_14 | Dims(M,K,N,NNZ): 13344,13344,128,2695 | Perf: 24.780495 | Verify: SUCCESS
+
+[2026-04-25 18:46:35] | Category: Pajek | Sample: Reuters911_Day_15 | Dims(M,K,N,NNZ): 13344,13344,128,5754 | Perf: 36.680733 | Verify: SUCCESS
+
+[2026-04-25 18:47:11] | Category: Pajek | Sample: Reuters911_Day_16 | Dims(M,K,N,NNZ): 13344,13344,128,4893 | Perf: 32.100643 | Verify: SUCCESS
+
+[2026-04-25 18:47:47] | Category: Pajek | Sample: Reuters911_Day_17 | Dims(M,K,N,NNZ): 13344,13344,128,3687 | Perf: 26.880537 | Verify: SUCCESS
+
+[2026-04-25 18:48:23] | Category: Pajek | Sample: Reuters911_Day_18 | Dims(M,K,N,NNZ): 13344,13344,128,3405 | Perf: 26.580532 | Verify: SUCCESS
+
+[2026-04-25 18:48:59] | Category: Pajek | Sample: Reuters911_Day_19 | Dims(M,K,N,NNZ): 13344,13344,128,1885 | Perf: 12.240245 | Verify: SUCCESS
+
+[2026-04-25 18:49:35] | Category: Pajek | Sample: Reuters911_Day_20 | Dims(M,K,N,NNZ): 13344,13344,128,2983 | Perf: 25.500509 | Verify: SUCCESS
+
+[2026-04-25 18:50:11] | Category: Pajek | Sample: Reuters911_Day_21 | Dims(M,K,N,NNZ): 13344,13344,128,3543 | Perf: 26.240524 | Verify: SUCCESS
+
+[2026-04-25 18:50:47] | Category: Pajek | Sample: Reuters911_Day_22 | Dims(M,K,N,NNZ): 13344,13344,128,3566 | Perf: 27.060541 | Verify: SUCCESS
+
+[2026-04-25 18:51:23] | Category: Pajek | Sample: Reuters911_Day_23 | Dims(M,K,N,NNZ): 13344,13344,128,2993 | Perf: 24.580492 | Verify: SUCCESS
+
+[2026-04-25 18:51:59] | Category: Pajek | Sample: Reuters911_Day_24 | Dims(M,K,N,NNZ): 13344,13344,128,2396 | Perf: 20.340406 | Verify: SUCCESS
+
+[2026-04-25 18:52:35] | Category: Pajek | Sample: Reuters911_Day_25 | Dims(M,K,N,NNZ): 13344,13344,128,3822 | Perf: 28.440569 | Verify: SUCCESS
+
+[2026-04-25 18:53:11] | Category: Pajek | Sample: Reuters911_Day_26 | Dims(M,K,N,NNZ): 13344,13344,128,3125 | Perf: 26.560532 | Verify: SUCCESS
+
+[2026-04-25 18:53:47] | Category: Pajek | Sample: Reuters911_Day_27 | Dims(M,K,N,NNZ): 13344,13344,128,3610 | Perf: 27.800556 | Verify: SUCCESS
+
+[2026-04-25 18:54:23] | Category: Pajek | Sample: Reuters911_Day_28 | Dims(M,K,N,NNZ): 13344,13344,128,3816 | Perf: 27.340548 | Verify: SUCCESS
+
+[2026-04-25 18:55:00] | Category: Pajek | Sample: Reuters911_Day_29 | Dims(M,K,N,NNZ): 13344,13344,128,2841 | Perf: 25.780516 | Verify: SUCCESS
+
+[2026-04-25 18:55:37] | Category: Pajek | Sample: Reuters911_Day_30 | Dims(M,K,N,NNZ): 13344,13344,128,3076 | Perf: 25.080502 | Verify: SUCCESS
+
+[2026-04-25 18:56:13] | Category: Pajek | Sample: Reuters911_Day_31 | Dims(M,K,N,NNZ): 13344,13344,128,4025 | Perf: 29.280586 | Verify: SUCCESS
+
+[2026-04-25 18:56:49] | Category: Pajek | Sample: Reuters911_Day_32 | Dims(M,K,N,NNZ): 13344,13344,128,3124 | Perf: 26.500530 | Verify: SUCCESS
+
+[2026-04-25 18:57:25] | Category: Pajek | Sample: Reuters911_Day_33 | Dims(M,K,N,NNZ): 13344,13344,128,3032 | Perf: 23.860477 | Verify: SUCCESS
+
+[2026-04-25 18:58:01] | Category: Pajek | Sample: Reuters911_Day_34 | Dims(M,K,N,NNZ): 13344,13344,128,3068 | Perf: 25.760515 | Verify: SUCCESS
+
+[2026-04-25 18:58:37] | Category: Pajek | Sample: Reuters911_Day_35 | Dims(M,K,N,NNZ): 13344,13344,128,3548 | Perf: 27.020540 | Verify: SUCCESS
+
+[2026-04-25 18:59:13] | Category: Pajek | Sample: Reuters911_Day_36 | Dims(M,K,N,NNZ): 13344,13344,128,3822 | Perf: 28.060562 | Verify: SUCCESS
+
+[2026-04-25 18:59:49] | Category: Pajek | Sample: Reuters911_Day_37 | Dims(M,K,N,NNZ): 13344,13344,128,3675 | Perf: 26.980539 | Verify: SUCCESS
+
+[2026-04-25 19:00:25] | Category: Pajek | Sample: Reuters911_Day_38 | Dims(M,K,N,NNZ): 13344,13344,128,2941 | Perf: 24.900497 | Verify: SUCCESS
+
+[2026-04-25 19:01:01] | Category: Pajek | Sample: Reuters911_Day_39 | Dims(M,K,N,NNZ): 13344,13344,128,3568 | Perf: 28.220564 | Verify: SUCCESS
+
+[2026-04-25 19:01:38] | Category: Pajek | Sample: Reuters911_Day_40 | Dims(M,K,N,NNZ): 13344,13344,128,3133 | Perf: 24.980499 | Verify: SUCCESS
+
+[2026-04-25 19:02:14] | Category: Pajek | Sample: Reuters911_Day_41 | Dims(M,K,N,NNZ): 13344,13344,128,2774 | Perf: 22.920458 | Verify: SUCCESS
+
+[2026-04-25 19:02:50] | Category: Pajek | Sample: Reuters911_Day_42 | Dims(M,K,N,NNZ): 13344,13344,128,2243 | Perf: 20.700415 | Verify: SUCCESS
+
+[2026-04-25 19:03:26] | Category: Pajek | Sample: Reuters911_Day_43 | Dims(M,K,N,NNZ): 13344,13344,128,2374 | Perf: 19.960400 | Verify: SUCCESS
+
+[2026-04-25 19:04:02] | Category: Pajek | Sample: Reuters911_Day_44 | Dims(M,K,N,NNZ): 13344,13344,128,2935 | Perf: 24.500490 | Verify: SUCCESS
+
+[2026-04-25 19:04:38] | Category: Pajek | Sample: Reuters911_Day_45 | Dims(M,K,N,NNZ): 13344,13344,128,2579 | Perf: 22.720455 | Verify: SUCCESS
+
+[2026-04-25 19:05:14] | Category: Pajek | Sample: Reuters911_Day_46 | Dims(M,K,N,NNZ): 13344,13344,128,2487 | Perf: 21.920439 | Verify: SUCCESS
+
+[2026-04-25 19:05:50] | Category: Pajek | Sample: Reuters911_Day_47 | Dims(M,K,N,NNZ): 13344,13344,128,3200 | Perf: 23.460468 | Verify: SUCCESS
+
+[2026-04-25 19:06:26] | Category: Pajek | Sample: Reuters911_Day_48 | Dims(M,K,N,NNZ): 13344,13344,128,2919 | Perf: 22.820456 | Verify: SUCCESS
+
+[2026-04-25 19:07:03] | Category: Pajek | Sample: Reuters911_Day_49 | Dims(M,K,N,NNZ): 13344,13344,128,3135 | Perf: 26.720535 | Verify: SUCCESS
+
+[2026-04-25 19:07:38] | Category: Pajek | Sample: Reuters911_Day_50 | Dims(M,K,N,NNZ): 13344,13344,128,3182 | Perf: 26.320526 | Verify: SUCCESS
+
+[2026-04-25 19:08:14] | Category: Pajek | Sample: Reuters911_Day_51 | Dims(M,K,N,NNZ): 13344,13344,128,2889 | Perf: 23.800476 | Verify: SUCCESS
+
+[2026-04-25 19:08:50] | Category: Pajek | Sample: Reuters911_Day_52 | Dims(M,K,N,NNZ): 13344,13344,128,3523 | Perf: 26.720535 | Verify: SUCCESS
+
+[2026-04-25 19:09:26] | Category: Pajek | Sample: Reuters911_Day_53 | Dims(M,K,N,NNZ): 13344,13344,128,3465 | Perf: 27.020540 | Verify: SUCCESS
+
+[2026-04-25 19:10:02] | Category: Pajek | Sample: Reuters911_Day_54 | Dims(M,K,N,NNZ): 13344,13344,128,3390 | Perf: 26.280525 | Verify: SUCCESS
+
+[2026-04-25 19:10:38] | Category: Pajek | Sample: Reuters911_Day_55 | Dims(M,K,N,NNZ): 13344,13344,128,2652 | Perf: 21.680433 | Verify: SUCCESS
+
+[2026-04-25 19:11:14] | Category: Pajek | Sample: Reuters911_Day_56 | Dims(M,K,N,NNZ): 13344,13344,128,3988 | Perf: 30.320606 | Verify: SUCCESS
+
+[2026-04-25 19:11:51] | Category: Pajek | Sample: Reuters911_Day_57 | Dims(M,K,N,NNZ): 13344,13344,128,1889 | Perf: 19.240385 | Verify: SUCCESS
+
+[2026-04-25 19:12:26] | Category: Pajek | Sample: Reuters911_Day_58 | Dims(M,K,N,NNZ): 13344,13344,128,2181 | Perf: 19.700394 | Verify: SUCCESS
+
+[2026-04-25 19:13:03] | Category: Pajek | Sample: Reuters911_Day_59 | Dims(M,K,N,NNZ): 13344,13344,128,3095 | Perf: 24.700495 | Verify: SUCCESS
+
+[2026-04-25 19:13:39] | Category: Pajek | Sample: Reuters911_Day_60 | Dims(M,K,N,NNZ): 13344,13344,128,2883 | Perf: 24.160482 | Verify: SUCCESS
+
+[2026-04-25 19:14:14] | Category: Pajek | Sample: Reuters911_Day_61 | Dims(M,K,N,NNZ): 13344,13344,128,2576 | Perf: 23.980480 | Verify: SUCCESS
+
+[2026-04-25 19:14:50] | Category: Pajek | Sample: Reuters911_Day_62 | Dims(M,K,N,NNZ): 13344,13344,128,1997 | Perf: 20.040401 | Verify: SUCCESS
+
+[2026-04-25 19:15:26] | Category: Pajek | Sample: Reuters911_Day_63 | Dims(M,K,N,NNZ): 13344,13344,128,1955 | Perf: 19.520390 | Verify: SUCCESS
+
+[2026-04-25 19:16:01] | Category: Pajek | Sample: Reuters911_Day_64 | Dims(M,K,N,NNZ): 13344,13344,128,2350 | Perf: 21.280426 | Verify: SUCCESS
+
+[2026-04-25 19:16:38] | Category: Pajek | Sample: Reuters911_Day_65 | Dims(M,K,N,NNZ): 13344,13344,128,2132 | Perf: 20.600412 | Verify: SUCCESS
+
+[2026-04-25 19:17:13] | Category: Pajek | Sample: Reuters911_Day_66 | Dims(M,K,N,NNZ): 13344,13344,128,2274 | Perf: 21.140423 | Verify: SUCCESS
+
+[2026-04-25 19:17:20] | Category: Pajek | Sample: Sandi_authors | Dims(M,K,N,NNZ): 96,96,128,124 | Perf: 6.740135 | Verify: SUCCESS
+
+[2026-04-25 19:17:34] | Category: Pajek | Sample: SciMet | Dims(M,K,N,NNZ): 3088,3088,128,10413 | Perf: 36.220726 | Verify: SUCCESS
+
+[2026-04-25 19:17:44] | Category: Pajek | Sample: SmaGri | Dims(M,K,N,NNZ): 1072,1072,128,4919 | Perf: 17.940359 | Verify: SUCCESS
+
+[2026-04-25 19:17:52] | Category: Pajek | Sample: SmallW | Dims(M,K,N,NNZ): 400,400,128,994 | Perf: 7.980160 | Verify: SUCCESS
+
+[2026-04-25 19:17:59] | Category: Pajek | Sample: Stranke94 | Dims(M,K,N,NNZ): 16,16,128,45 | Perf: 5.120102 | Verify: SUCCESS
+
+[2026-04-25 19:18:07] | Category: Pajek | Sample: USAir97 | Dims(M,K,N,NNZ): 336,336,128,2126 | Perf: 9.200184 | Verify: SUCCESS
+
+[2026-04-25 19:22:33] | Category: Pajek | Sample: Wordnet3 | Dims(M,K,N,NNZ): 82672,82672,128,132964 | Perf: 185.623718 | Verify: SUCCESS
+
+[2026-04-25 19:22:42] | Category: Pajek | Sample: WorldCities | Dims(M,K,N,NNZ): 320,112,128,7518 | Perf: 10.920218 | Verify: SUCCESS
+
+[2026-04-25 19:23:08] | Category: Pajek | Sample: Zewail | Dims(M,K,N,NNZ): 6752,6752,128,54233 | Perf: 127.302544 | Verify: SUCCESS
+
+[2026-04-25 19:23:53] | Category: Pajek | Sample: foldoc | Dims(M,K,N,NNZ): 13360,13360,128,120238 | Perf: 198.983978 | Verify: SUCCESS
+
+[2026-04-25 19:24:00] | Category: Pajek | Sample: football | Dims(M,K,N,NNZ): 48,48,128,118 | Perf: 6.100122 | Verify: SUCCESS
+
+[2026-04-25 19:24:26] | Category: Pajek | Sample: geom | Dims(M,K,N,NNZ): 7344,7344,128,11898 | Perf: 43.060860 | Verify: SUCCESS
+
+[2026-04-25 19:31:19] | Category: Pajek | Sample: internet | Dims(M,K,N,NNZ): 124656,124656,128,207214 | Perf: 360.107208 | Verify: SUCCESS
+
+[2026-04-25 19:46:32] | Category: VDOL | Sample: dynamicSoaringProblem_1 | Dims(M,K,N,NNZ): 656,656,128,2865 | Perf: 12.040241 | Verify: SUCCESS
+
+[2026-04-25 19:46:43] | Category: VDOL | Sample: dynamicSoaringProblem_2 | Dims(M,K,N,NNZ): 1600,1600,128,8241 | Perf: 17.220345 | Verify: SUCCESS
+
+[2026-04-25 19:46:58] | Category: VDOL | Sample: dynamicSoaringProblem_3 | Dims(M,K,N,NNZ): 2880,2880,128,16818 | Perf: 30.420609 | Verify: SUCCESS
+
+[2026-04-25 19:47:15] | Category: VDOL | Sample: dynamicSoaringProblem_4 | Dims(M,K,N,NNZ): 3200,3200,128,19155 | Perf: 35.320705 | Verify: SUCCESS
+
+[2026-04-25 19:47:31] | Category: VDOL | Sample: dynamicSoaringProblem_5 | Dims(M,K,N,NNZ): 3280,3280,128,19314 | Perf: 31.880638 | Verify: SUCCESS
+
+[2026-04-25 19:47:48] | Category: VDOL | Sample: dynamicSoaringProblem_6 | Dims(M,K,N,NNZ): 3440,3440,128,19335 | Perf: 33.640675 | Verify: SUCCESS
+
+[2026-04-25 19:48:04] | Category: VDOL | Sample: dynamicSoaringProblem_7 | Dims(M,K,N,NNZ): 3520,3520,128,19827 | Perf: 37.120743 | Verify: SUCCESS
+
+[2026-04-25 19:48:24] | Category: VDOL | Sample: dynamicSoaringProblem_8 | Dims(M,K,N,NNZ): 3552,3552,128,20064 | Perf: 40.880817 | Verify: SUCCESS
+
+[2026-04-25 19:48:32] | Category: VDOL | Sample: freeFlyingRobot_1 | Dims(M,K,N,NNZ): 800,800,128,2861 | Perf: 11.920238 | Verify: SUCCESS
+
+[2026-04-25 19:48:52] | Category: VDOL | Sample: freeFlyingRobot_10 | Dims(M,K,N,NNZ): 5232,5232,128,21604 | Perf: 47.300945 | Verify: SUCCESS
+
+[2026-04-25 19:49:13] | Category: VDOL | Sample: freeFlyingRobot_11 | Dims(M,K,N,NNZ): 5440,5440,128,21657 | Perf: 48.480968 | Verify: SUCCESS
+
+[2026-04-25 19:49:35] | Category: VDOL | Sample: freeFlyingRobot_12 | Dims(M,K,N,NNZ): 5584,5584,128,22642 | Perf: 49.760994 | Verify: SUCCESS
+
+[2026-04-25 19:49:57] | Category: VDOL | Sample: freeFlyingRobot_13 | Dims(M,K,N,NNZ): 5728,5728,128,23711 | Perf: 50.921017 | Verify: SUCCESS
+
+[2026-04-25 19:50:18] | Category: VDOL | Sample: freeFlyingRobot_14 | Dims(M,K,N,NNZ): 5968,5968,128,23435 | Perf: 52.141045 | Verify: SUCCESS
+
+[2026-04-25 19:50:41] | Category: VDOL | Sample: freeFlyingRobot_15 | Dims(M,K,N,NNZ): 6048,6048,128,23499 | Perf: 54.321087 | Verify: SUCCESS
+
+[2026-04-25 19:51:04] | Category: VDOL | Sample: freeFlyingRobot_16 | Dims(M,K,N,NNZ): 6080,6080,128,23825 | Perf: 61.041222 | Verify: SUCCESS
+
+[2026-04-25 19:51:15] | Category: VDOL | Sample: freeFlyingRobot_2 | Dims(M,K,N,NNZ): 1344,1344,128,6200 | Perf: 16.280325 | Verify: SUCCESS
+
+[2026-04-25 19:51:25] | Category: VDOL | Sample: freeFlyingRobot_3 | Dims(M,K,N,NNZ): 1728,1728,128,6975 | Perf: 18.980379 | Verify: SUCCESS
+
+[2026-04-25 19:51:38] | Category: VDOL | Sample: freeFlyingRobot_4 | Dims(M,K,N,NNZ): 2368,2368,128,9815 | Perf: 24.420488 | Verify: SUCCESS
+
+[2026-04-25 19:51:54] | Category: VDOL | Sample: freeFlyingRobot_5 | Dims(M,K,N,NNZ): 2880,2880,128,13153 | Perf: 28.460569 | Verify: SUCCESS
+
+[2026-04-25 19:52:09] | Category: VDOL | Sample: freeFlyingRobot_6 | Dims(M,K,N,NNZ): 3360,3360,128,14521 | Perf: 32.720654 | Verify: SUCCESS
+
+[2026-04-25 19:52:26] | Category: VDOL | Sample: freeFlyingRobot_7 | Dims(M,K,N,NNZ): 3920,3920,128,16697 | Perf: 37.100742 | Verify: SUCCESS
+
+[2026-04-25 19:52:44] | Category: VDOL | Sample: freeFlyingRobot_8 | Dims(M,K,N,NNZ): 4400,4400,128,18797 | Perf: 39.480789 | Verify: SUCCESS
+
+[2026-04-25 19:53:04] | Category: VDOL | Sample: freeFlyingRobot_9 | Dims(M,K,N,NNZ): 4784,4784,128,21414 | Perf: 43.820877 | Verify: SUCCESS
+
+[2026-04-25 19:53:12] | Category: VDOL | Sample: goddardRocketProblem_1 | Dims(M,K,N,NNZ): 832,832,128,4457 | Perf: 15.040300 | Verify: SUCCESS
+
+[2026-04-25 19:53:21] | Category: VDOL | Sample: goddardRocketProblem_2 | Dims(M,K,N,NNZ): 880,880,128,4746 | Perf: 13.960279 | Verify: SUCCESS
+
+[2026-04-25 19:53:30] | Category: VDOL | Sample: hangGlider_1 | Dims(M,K,N,NNZ): 368,368,128,1838 | Perf: 12.600252 | Verify: SUCCESS
+
+[2026-04-25 19:53:42] | Category: VDOL | Sample: hangGlider_2 | Dims(M,K,N,NNZ): 1648,1648,128,7834 | Perf: 34.920700 | Verify: SUCCESS
+
+[2026-04-25 19:54:17] | Category: VDOL | Sample: hangGlider_3 | Dims(M,K,N,NNZ): 10272,10272,128,49201 | Perf: 216.644333 | Verify: SUCCESS
+
+[2026-04-25 19:55:27] | Category: VDOL | Sample: hangGlider_4 | Dims(M,K,N,NNZ): 15568,15568,128,79088 | Perf: 297.325958 | Verify: SUCCESS
+
+[2026-04-25 19:56:18] | Category: VDOL | Sample: hangGlider_5 | Dims(M,K,N,NNZ): 16016,16016,128,82070 | Perf: 270.025391 | Verify: SUCCESS
+
+[2026-04-25 19:56:31] | Category: VDOL | Sample: kineticBatchReactor_1 | Dims(M,K,N,NNZ): 2064,2064,128,10836 | Perf: 29.620592 | Verify: SUCCESS
+
+[2026-04-25 19:56:50] | Category: VDOL | Sample: kineticBatchReactor_2 | Dims(M,K,N,NNZ): 4368,4368,128,23559 | Perf: 61.381229 | Verify: SUCCESS
+
+[2026-04-25 19:57:12] | Category: VDOL | Sample: kineticBatchReactor_3 | Dims(M,K,N,NNZ): 5088,5088,128,27937 | Perf: 82.341644 | Verify: SUCCESS
+
+[2026-04-25 19:57:40] | Category: VDOL | Sample: kineticBatchReactor_4 | Dims(M,K,N,NNZ): 7120,7120,128,39290 | Perf: 88.821777 | Verify: SUCCESS
+
+[2026-04-25 19:58:10] | Category: VDOL | Sample: kineticBatchReactor_5 | Dims(M,K,N,NNZ): 7648,7648,128,42379 | Perf: 98.461967 | Verify: SUCCESS
+
+[2026-04-25 19:58:40] | Category: VDOL | Sample: kineticBatchReactor_6 | Dims(M,K,N,NNZ): 7776,7776,128,43280 | Perf: 116.742332 | Verify: SUCCESS
+
+[2026-04-25 19:59:10] | Category: VDOL | Sample: kineticBatchReactor_7 | Dims(M,K,N,NNZ): 7968,7968,128,44335 | Perf: 112.342247 | Verify: SUCCESS
+
+[2026-04-25 19:59:40] | Category: VDOL | Sample: kineticBatchReactor_8 | Dims(M,K,N,NNZ): 8064,8064,128,44700 | Perf: 115.882317 | Verify: SUCCESS
+
+[2026-04-25 20:00:11] | Category: VDOL | Sample: kineticBatchReactor_9 | Dims(M,K,N,NNZ): 8128,8128,128,45211 | Perf: 104.302086 | Verify: SUCCESS
+
+[2026-04-25 20:00:20] | Category: VDOL | Sample: lowThrust_1 | Dims(M,K,N,NNZ): 592,592,128,3314 | Perf: 10.880218 | Verify: SUCCESS
+
+[2026-04-25 20:01:22] | Category: VDOL | Sample: lowThrust_10 | Dims(M,K,N,NNZ): 18272,18272,128,116074 | Perf: 155.803116 | Verify: SUCCESS
+
+[2026-04-25 20:05:28] | Category: VDOL | Sample: lowThrust_11 | Dims(M,K,N,NNZ): 18368,18368,128,117002 | Perf: 174.223480 | Verify: SUCCESS
+
+[2026-04-25 20:07:11] | Category: VDOL | Sample: lowThrust_12 | Dims(M,K,N,NNZ): 18464,18464,128,117423 | Perf: 177.103546 | Verify: SUCCESS
+
+[2026-04-25 20:08:51] | Category: VDOL | Sample: lowThrust_13 | Dims(M,K,N,NNZ): 18480,18480,128,117580 | Perf: 156.723129 | Verify: SUCCESS
+
+[2026-04-25 20:09:05] | Category: VDOL | Sample: lowThrust_2 | Dims(M,K,N,NNZ): 2320,2320,128,13772 | Perf: 25.300507 | Verify: SUCCESS
+
+[2026-04-25 20:09:32] | Category: VDOL | Sample: lowThrust_3 | Dims(M,K,N,NNZ): 7072,7072,128,42284 | Perf: 54.981098 | Verify: SUCCESS
+
+[2026-04-25 20:10:47] | Category: VDOL | Sample: lowThrust_4 | Dims(M,K,N,NNZ): 13568,13568,128,84240 | Perf: 126.342529 | Verify: SUCCESS
+
+[2026-04-25 20:12:32] | Category: VDOL | Sample: lowThrust_5 | Dims(M,K,N,NNZ): 16272,16272,128,103701 | Perf: 175.523514 | Verify: SUCCESS
+
+[2026-04-25 20:13:31] | Category: VDOL | Sample: lowThrust_6 | Dims(M,K,N,NNZ): 16928,16928,128,108376 | Perf: 160.123199 | Verify: SUCCESS
+
+[2026-04-25 20:14:44] | Category: VDOL | Sample: lowThrust_7 | Dims(M,K,N,NNZ): 17392,17392,128,110607 | Perf: 175.383514 | Verify: SUCCESS
+
+[2026-04-25 20:16:33] | Category: VDOL | Sample: lowThrust_8 | Dims(M,K,N,NNZ): 17712,17712,128,113139 | Perf: 198.383972 | Verify: SUCCESS
+
+[2026-04-25 20:18:12] | Category: VDOL | Sample: lowThrust_9 | Dims(M,K,N,NNZ): 18048,18048,128,114806 | Perf: 171.163422 | Verify: SUCCESS
+
+[2026-04-25 20:18:20] | Category: VDOL | Sample: orbitRaising_1 | Dims(M,K,N,NNZ): 448,448,128,1573 | Perf: 7.900158 | Verify: SUCCESS
+
+[2026-04-25 20:18:29] | Category: VDOL | Sample: orbitRaising_2 | Dims(M,K,N,NNZ): 752,752,128,3464 | Perf: 10.560211 | Verify: SUCCESS
+
+[2026-04-25 20:18:38] | Category: VDOL | Sample: orbitRaising_3 | Dims(M,K,N,NNZ): 768,768,128,3256 | Perf: 10.540211 | Verify: SUCCESS
+
+[2026-04-25 20:18:47] | Category: VDOL | Sample: orbitRaising_4 | Dims(M,K,N,NNZ): 928,928,128,4144 | Perf: 12.280246 | Verify: SUCCESS
+
+[2026-04-25 20:18:56] | Category: VDOL | Sample: reorientation_1 | Dims(M,K,N,NNZ): 688,688,128,3861 | Perf: 20.960419 | Verify: SUCCESS
+
+[2026-04-25 20:19:07] | Category: VDOL | Sample: reorientation_2 | Dims(M,K,N,NNZ): 1552,1552,128,9408 | Perf: 32.180645 | Verify: SUCCESS
+
+[2026-04-25 20:19:21] | Category: VDOL | Sample: reorientation_3 | Dims(M,K,N,NNZ): 2528,2528,128,16821 | Perf: 37.020741 | Verify: SUCCESS
+
+[2026-04-25 20:19:36] | Category: VDOL | Sample: reorientation_4 | Dims(M,K,N,NNZ): 2720,2720,128,17613 | Perf: 55.961121 | Verify: SUCCESS
+
+[2026-04-25 20:19:52] | Category: VDOL | Sample: reorientation_5 | Dims(M,K,N,NNZ): 2912,2912,128,18648 | Perf: 52.041042 | Verify: SUCCESS
+
+[2026-04-25 20:20:07] | Category: VDOL | Sample: reorientation_6 | Dims(M,K,N,NNZ): 3008,3008,128,19554 | Perf: 59.221184 | Verify: SUCCESS
+
+[2026-04-25 20:20:22] | Category: VDOL | Sample: reorientation_7 | Dims(M,K,N,NNZ): 3072,3072,128,19473 | Perf: 60.761215 | Verify: SUCCESS
+
+[2026-04-25 20:20:37] | Category: VDOL | Sample: reorientation_8 | Dims(M,K,N,NNZ): 3120,3120,128,19860 | Perf: 52.921059 | Verify: SUCCESS
+
+[2026-04-25 20:20:45] | Category: VDOL | Sample: spaceShuttleEntry_1 | Dims(M,K,N,NNZ): 560,560,128,3605 | Perf: 13.020261 | Verify: SUCCESS
+
+[2026-04-25 20:20:56] | Category: VDOL | Sample: spaceShuttleEntry_2 | Dims(M,K,N,NNZ): 1440,1440,128,12444 | Perf: 33.560673 | Verify: SUCCESS
+
+[2026-04-25 20:21:08] | Category: VDOL | Sample: spaceShuttleEntry_3 | Dims(M,K,N,NNZ): 1840,1840,128,14902 | Perf: 40.780815 | Verify: SUCCESS
+
+[2026-04-25 20:21:22] | Category: VDOL | Sample: spaceShuttleEntry_4 | Dims(M,K,N,NNZ): 2464,2464,128,20534 | Perf: 50.621014 | Verify: SUCCESS
+
+[2026-04-25 20:21:29] | Category: VDOL | Sample: spaceStation_1 | Dims(M,K,N,NNZ): 112,112,128,489 | Perf: 7.020140 | Verify: SUCCESS
+
+[2026-04-25 20:21:40] | Category: VDOL | Sample: spaceStation_10 | Dims(M,K,N,NNZ): 1280,1280,128,9096 | Perf: 18.580372 | Verify: SUCCESS
+
+[2026-04-25 20:21:51] | Category: VDOL | Sample: spaceStation_11 | Dims(M,K,N,NNZ): 1376,1376,128,9860 | Perf: 19.920399 | Verify: SUCCESS
+
+[2026-04-25 20:22:02] | Category: VDOL | Sample: spaceStation_12 | Dims(M,K,N,NNZ): 1424,1424,128,10260 | Perf: 21.320427 | Verify: SUCCESS
+
+[2026-04-25 20:22:14] | Category: VDOL | Sample: spaceStation_13 | Dims(M,K,N,NNZ): 1632,1632,128,12279 | Perf: 22.460449 | Verify: SUCCESS
+
+[2026-04-25 20:22:26] | Category: VDOL | Sample: spaceStation_14 | Dims(M,K,N,NNZ): 1648,1648,128,12623 | Perf: 23.880478 | Verify: SUCCESS
+
+[2026-04-25 20:22:34] | Category: VDOL | Sample: spaceStation_2 | Dims(M,K,N,NNZ): 336,336,128,2999 | Perf: 10.380208 | Verify: SUCCESS
+
+[2026-04-25 20:22:43] | Category: VDOL | Sample: spaceStation_3 | Dims(M,K,N,NNZ): 480,480,128,2681 | Perf: 9.920198 | Verify: SUCCESS
+
+[2026-04-25 20:22:53] | Category: VDOL | Sample: spaceStation_4 | Dims(M,K,N,NNZ): 960,960,128,7079 | Perf: 15.320307 | Verify: SUCCESS
+
+[2026-04-25 20:23:03] | Category: VDOL | Sample: spaceStation_5 | Dims(M,K,N,NNZ): 1024,1024,128,7895 | Perf: 17.000340 | Verify: SUCCESS
+
+[2026-04-25 20:23:13] | Category: VDOL | Sample: spaceStation_6 | Dims(M,K,N,NNZ): 1120,1120,128,9109 | Perf: 18.660374 | Verify: SUCCESS
+
+[2026-04-25 20:23:23] | Category: VDOL | Sample: spaceStation_7 | Dims(M,K,N,NNZ): 1136,1136,128,9444 | Perf: 18.780376 | Verify: SUCCESS
+
+[2026-04-25 20:23:34] | Category: VDOL | Sample: spaceStation_8 | Dims(M,K,N,NNZ): 1168,1168,128,9797 | Perf: 19.560390 | Verify: SUCCESS
+
+[2026-04-25 20:23:44] | Category: VDOL | Sample: spaceStation_9 | Dims(M,K,N,NNZ): 1184,1184,128,10168 | Perf: 19.300386 | Verify: SUCCESS
+
+[2026-04-25 20:23:52] | Category: VDOL | Sample: tumorAntiAngiogenesis_1 | Dims(M,K,N,NNZ): 208,208,128,953 | Perf: 8.020161 | Verify: SUCCESS
+
+[2026-04-25 20:24:00] | Category: VDOL | Sample: tumorAntiAngiogenesis_2 | Dims(M,K,N,NNZ): 320,320,128,1441 | Perf: 11.640233 | Verify: SUCCESS
+
+[2026-04-25 20:24:08] | Category: VDOL | Sample: tumorAntiAngiogenesis_3 | Dims(M,K,N,NNZ): 416,416,128,2099 | Perf: 12.000240 | Verify: SUCCESS
+
+[2026-04-25 20:24:16] | Category: VDOL | Sample: tumorAntiAngiogenesis_4 | Dims(M,K,N,NNZ): 464,464,128,2433 | Perf: 12.520250 | Verify: SUCCESS
+
+[2026-04-25 20:24:24] | Category: VDOL | Sample: tumorAntiAngiogenesis_5 | Dims(M,K,N,NNZ): 464,464,128,2483 | Perf: 13.340267 | Verify: SUCCESS
+
+[2026-04-25 20:24:32] | Category: VDOL | Sample: tumorAntiAngiogenesis_6 | Dims(M,K,N,NNZ): 480,480,128,2537 | Perf: 14.720294 | Verify: SUCCESS
+
+[2026-04-25 20:24:40] | Category: VDOL | Sample: tumorAntiAngiogenesis_7 | Dims(M,K,N,NNZ): 480,480,128,2441 | Perf: 30.060600 | Verify: SUCCESS
+
+[2026-04-25 20:24:48] | Category: VDOL | Sample: tumorAntiAngiogenesis_8 | Dims(M,K,N,NNZ): 496,496,128,2535 | Perf: 12.320247 | Verify: SUCCESS
 

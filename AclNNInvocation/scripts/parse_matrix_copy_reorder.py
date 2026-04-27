@@ -551,7 +551,7 @@ def coo_to_csr(rows,cols,values,rowlen):
             print("[error]:the process of coo transform to csr is error,and the err row is {row}")
     return (csr_row_ptr,csr_col_idx,csr_vals)
 
-# ===============================
+# ===============================MKST reorder===================================
 def build_minhash_lsh_buckets(num_row, row_ptr, col_idx, num_perm=128, lsh_threshold=0.2):
     lsh = MinHashLSH(threshold=lsh_threshold, num_perm=num_perm)
     minhash_list = []

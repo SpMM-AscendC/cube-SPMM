@@ -465,59 +465,6 @@ def parse_mtx_to_bcsr_colcondense(
                 + now_col % BLOCK_K
             ] = new_csr_vals[csr_ind]
 
-    # # Populate blocks from csr to bcsr
-    # for r, c, v in zip(rows_new, cols_new, values_new):
-    #     # Skip elements outside matrix dimensions (shouldn't happen, but safe)
-    #     if r >= M or c >= K:
-    #         continue
-    #     # if(r==1):
-    #     #     print(c)
-    #     block_row = r // BLOCK_M
-    #     local_row = r % BLOCK_M
-
-    #     if block_row not in blocks:
-    #         blocks[block_row] = {}
-    #     elif blocks[block_row][c] not in blocks:
-    #         blocks[block_row][c]=[]
-    #     blocks[block_row][c].append((local_row, v))
-
-    # Initialize output arrays
-    # Prefix sum array
-    # all_block_cols = []  # Starting columns for each block
-
-    # # Process each block row
-    # for br in range(block_rows):
-    #     blocks_in_row = 0
-    #     row_block_cols = []
-    #     row_block_vals = []
-
-    #     # Process each block column in this block row
-    #     for bc in range(block_cols):
-    #         key = (br, bc)
-    #         if key in blocks:
-    #             blocks_in_row += 1
-    #             row_block_cols.append(bc * BLOCK_K)  # Starting column index
-
-    #             # Create dense block with zero padding
-    #             block_data = np.zeros((BLOCK_M, BLOCK_K), dtype=np.float16)
-
-    #             # Fill non-zero elements
-    #             for lr, lc, val in blocks[key]:
-    #                 # Only fill if within original matrix bounds
-    #                 global_row = br * BLOCK_M + lr
-    #                 global_col = bc * BLOCK_K + lc
-    #                 if global_row < M and global_col < K:
-    #                     block_data[lr, lc] = np.float16(val)
-
-    #             # Flatten in row-major order
-    #             row_block_vals.append(block_data.flatten())
-
-    #     # Update prefix sum
-    #     row_ptr.append(row_ptr[-1] + blocks_in_row)
-    #     # Append row data to global arrays
-    #     if row_block_cols:
-    #         all_block_cols.extend(row_block_cols)
-    #         all_block_vals.extend(row_block_vals)
 
     # Convert to numpy arrays
     rw_ptr_np = np.array(rw_partition, dtype=np.int32)
