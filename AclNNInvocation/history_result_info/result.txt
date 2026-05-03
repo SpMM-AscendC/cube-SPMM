@@ -1,0 +1,38 @@
+
+[2026-01-28 10:10:13] Performance Statistics
+Category: JGD_Homology | Directory: JGD_Homology | Total Samples: 113 | Total Performance: 19792.89586300 | Average: 175.158370
+Category: Bai | Directory: Bai | Total Samples: 72 | Total Performance: 3005.20010900 | Average: 41.738890
+Category: VDOL | Directory: VDOL | Total Samples: 91 | Total Performance: 8305.62613400 | Average: 91.270617
+Category: Gset | Directory: Gset | Total Samples: 33 | Total Performance: 2733.65467700 | Average: 82.838021
+Category: Pajek | Directory: Pajek | Total Samples: 98 | Total Performance: 22183.72361700 | Average: 226.364527
+Category: HB | Directory: HB | Total Samples: 179 | Total Performance: 6449.26895900 | Average: 36.029436
+
+[2026-01-28 10:46:43] Performance Statistics
+
+[2026-01-28 10:50:49] Performance Statistics
+
+[2026-01-28 11:01:26] Performance Statistics
+
+[2026-01-28 14:29:56] Performance Statistics
+Category: inputs_bin | Directory: inputs_bin | Total Samples: 6 | Total Performance: 0.00000000 | Average: 0.000000
+
+[2026-01-28 14:33:21] Performance Statistics
+Category: inputs_bin | Directory: inputs_bin | Total Samples: 6 | Total Performance: 73.44147000 | Average: 12.240245
+
+[2026-01-28 14:34:28] Performance Statistics
+Category: inputs_bin | Directory: inputs_bin | Total Samples: 6 | Total Performance: 72.72145200 | Average: 12.120242
+
+[2026-01-28 15:01:03] Performance Statistics
+Category: inputs_bin | Directory: inputs_bin | Total Samples: 6 | Total Performance: 72.72145200 | Average: 12.120242
+
+[2026-01-28 15:15:48] Performance Statistics
+
+[2026-01-28 15:16:55] Performance Statistics
+Category: inputs_bin | Directory: inputs_bin | Total Samples: 3 | Total Performance: 37.32074400 | Average: 12.440248
+
+[2026-01-28 16:04:54] Performance Statistics
+Category: Gset | Directory: Gset | Total Samples: 33 | Total Performance: 1019.06037700 | Average: 30.880617
+
+[2026-01-28 16:04:54] Performance Statistics
+Category: Gset | Directory: Gset | Total Samples: 33 | Total Performance: 1019.06037700 | Average: 30.880617
+Category: inputs_bin | Directory: inputs_bin | Total Samples: 72 | Total Performance: 1293.28585100 | Average: 17.962303

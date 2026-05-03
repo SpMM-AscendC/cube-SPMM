@@ -1,0 +1,20 @@
+
+[2026-01-27 14:06:13] ColDense Performance Statistics
+Category: JGD_Homology | Directory: /root/autodl-tmp/datasets-coldense/DataSets/JGD_Homology | Total Samples: 113 | Total Performance: 8520.28078700 us | Average: 75.400715 us
+Category: HB | Directory: /root/autodl-tmp/datasets-coldense/DataSets/HB | Total Samples: 179 | Total Performance: 4952.41803500 us | Average: 27.667140 us
+Category: VDOL | Directory: /root/autodl-tmp/datasets-coldense/DataSets/VDOL | Total Samples: 91 | Total Performance: 8211.84853100 us | Average: 90.240094 us
+Category: Bai | Directory: /root/autodl-tmp/datasets-coldense/DataSets/Bai | Total Samples: 72 | Total Performance: 1366.21465800 us | Average: 18.975204 us
+Category: Pajek | Directory: /root/autodl-tmp/datasets-coldense/DataSets/Pajek | Total Samples: 97 | Total Performance: 5891.07560900 us | Average: 60.732738 us
+Category: Gset | Directory: /root/autodl-tmp/datasets-coldense/DataSets/Gset | Total Samples: 33 | Total Performance: 1173.52693600 us | Average: 35.561422 us
+
+[2026-01-28 14:45:00] ColDense Performance Statistics
+Category: inputs | Directory: ../inputs | Total Samples: 3 | Total Performance: 39.76079400 us | Average: 13.253598 us
+
+[2026-01-28 14:47:11] ColDense Performance Statistics
+Category: inputs | Directory: ../inputs | Total Samples: 3 | Total Performance: 40.86081900 us | Average: 13.620273 us
+
+[2026-01-28 20:18:56] ColDense Performance Statistics
+
+[2026-01-28 20:29:22] ColDense Performance Statistics
+
+[2026-01-28 20:51:07] ColDense Performance Statistics

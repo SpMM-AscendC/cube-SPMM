@@ -1,0 +1,72 @@
+# Build artifacts
+/build/
+/build_out/
+/AclNNInvocation/build/
+/AclNNInvocation/msprof_out_coldense/
+/CooSpmmCustomOp/
+/BcsrSpmmCustomOp/
+/output/
+/output*/
+
+
+# Output directories
+/AclNNInvocation/output/
+
+# IDE and editor specific files
+.vscode/
+*.swp
+*.swo
+
+# claude code
+.claude/
+
+# Compiled files
+*.o
+*.so
+*.a
+*.out
+*.exe
+*.dll
+
+# Generated files
+*.log
+*.run
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# CMake temporary files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+
+# macOS specific files
+.DS_Store
+
+# IDE and editor temp files
+*~
+.#*
+\#*#
+.*.swp
+.*.swo
+.*.bak
+*.tmp
+*.temp
+
+inputs_all/*
+
+# temp_input/
+temp_input_copy/
+
+output_all/*
+inputs/*
+inputs_bin/*

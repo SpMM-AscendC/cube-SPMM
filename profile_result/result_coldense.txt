@@ -1,0 +1,54 @@
+
+[2026-04-27 13:50:37] ColDense Performance Statistics
+Category: Bai | Directory: ../inputs/Bai | Total Samples: 4 | Total Performance: 141.24282500 us | Average: 35.310706 us
+
+Category: JGD | Directory: ../inputs/JGD | Total Samples: 3 | Total Performance: 327.78655400 us | Average: 109.262185 us
+
+Category: Gset | Directory: ../inputs/Gset | Total Samples: 3 | Total Performance: 314.10628600 us | Average: 104.702095 us
+
+Category: Pajek | Directory: ../inputs/Pajek | Total Samples: 2 | Total Performance: 105.06210300 us | Average: 52.531051 us
+
+Category: VDOL | Directory: ../inputs/VDOL | Total Samples: 4 | Total Performance: 790.55579300 us | Average: 197.638948 us
+
+Category: HB | Directory: ../inputs/HB | Total Samples: 5 | Total Performance: 82.30164900 us | Average: 16.460330 us
+
+
+[2026-04-30 10:41:45] ColDense Performance Statistics
+Category: Bai | Directory: ../inputs/Bai | Total Samples: 72 | Total Performance: 2189.20378800 us | Average: 30.405608 us
+
+
+[2026-04-30 11:16:18] ColDense Performance Statistics
+Category: Gset | Directory: ../inputs/Gset | Total Samples: 33 | Total Performance: 2194.96390000 us | Average: 66.514058 us
+
+
+[2026-04-30 11:41:41] ColDense Performance Statistics
+Category: HB | Directory: ../inputs/HB | Total Samples: 179 | Total Performance: 7079.44156200 us | Average: 39.549953 us
+
+
+[2026-04-30 12:39:46] ColDense Performance Statistics
+Category: JGD_Homology | Directory: ../inputs/JGD_Homology | Total Samples: 113 | Total Performance: 11088.74171600 us | Average: 98.130458 us
+
+
+[2026-04-30 15:00:49] ColDense Performance Statistics
+Category: VDOL | Directory: ../inputs/VDOL | Total Samples: 91 | Total Performance: 11204.70413300 us | Average: 123.128617 us
+
+
+[2026-04-30 16:13:26] ColDense Performance Statistics
+Category: .ipynb_checkpoints | Directory: ../inputs/Pajek/.ipynb_checkpoints | Total Samples: 1 | Total Performance: 61.70123300 us | Average: 61.701233 us
+
+Category: Pajek | Directory: ../inputs/Pajek | Total Samples: 97 | Total Performance: 8024.78060200 us | Average: 82.729697 us
+
+
+[2026-05-01 13:39:50] ColDense Performance Statistics
+Category: BigData | Directory: ../inputs/BigData | Total Samples: 22 | Total Performance: 74887.37609900 us | Average: 3403.971641 us
+
+
+[2026-05-01 16:08:23] ColDense Performance Statistics
+
+[2026-05-01 16:20:57] ColDense Performance Statistics
+Category: Pajek | Directory: ../inputs/Pajek | Total Samples: 1 | Total Performance: 1330.76660200 us | Average: 1330.766602 us
+
+
+[2026-05-01 18:05:46] ColDense Performance Statistics
+Category: BigData | Directory: ../inputs/BigData | Total Samples: 2 | Total Performance: 31155.46252500 us | Average: 15577.731262 us
+
