@@ -155,21 +155,11 @@ def parse_mtx_to_bcsr(file_path, BLOCK_M=16, BLOCK_K=16):
 
       
     csr_row_ptr, csr_col_idx, csr_vals = coo_to_csr(rows, cols, vals, M)
-
-    # #单重排
-    # new_csr_row_ptr, new_csr_col_idx, new_csr_vals, reorder_ind_ref = reorder_row_csr_minhash(
-    #     M,K, nnz,BLOCK_K,
-    #     csr_row_ptr.tolist(),
-    #     csr_col_idx.tolist(),
-    #     csr_vals.tolist()
-    # )
-
-    # #双重排
-    # new_M,new_csr_row_ptr,new_csr_col_idx,new_csr_vals,reorder_ind_ref=reorder_double_row_csr_minhash( M,K, nnz,BLOCK_M,BLOCK_K,csr_row_ptr.tolist(),csr_col_idx.tolist(),csr_vals.tolist())
-    # M=new_M
+    #MKST重排
+    new_csr_row_ptr,new_csr_col_idx,new_csr_vals,reorder_ind_ref=reorder_MinHashLSH_KNN(M,BLOCK_M,nnz,csr_row_ptr,csr_col_idx,csr_vals,N=64,thres_KNN=0.2,num_perm=128,lsh_threshold=0.2)
     
-    #DTC重排
-    new_csr_row_ptr, new_csr_col_idx, new_csr_vals, reorder_ind_ref=reorder_double_DTC(M,BLOCK_M,BLOCK_K,nnz,csr_row_ptr,csr_col_idx,csr_vals)
+    # #DTC重排
+    # new_csr_row_ptr, new_csr_col_idx, new_csr_vals, reorder_ind_ref=reorder_double_DTC(M,BLOCK_M,BLOCK_K,nnz,csr_row_ptr,csr_col_idx,csr_vals)
 
     block_rows = (M + BLOCK_M - 1) // BLOCK_M
     M_pad=block_rows*BLOCK_M
@@ -187,15 +177,7 @@ def parse_mtx_to_bcsr(file_path, BLOCK_M=16, BLOCK_K=16):
     cols_new = new_csr_col_idx
     values_new = new_csr_vals
     
-    # Dictionary to store blocks: key=(block_row, block_col), value=list of (local_row, local_col, value)
-    a_pad = np.zeros((M_pad, K_pad), dtype=np.float16)
 
-    # Fill A_pad with original nonzeros
-    for r, c, v in zip(rows_new, cols_new, values_new):
-        if 0 <= r < M and 0 <= c < K:
-            a_pad[r, c] = np.float16(v)
-    # Calculate block dimensions
-    
     # Populate blocks from csr to bcsr
     for r, c, v in zip(rows_new, cols_new, values_new):
         # Skip elements outside matrix dimensions (shouldn't happen, but safe)
@@ -284,9 +266,12 @@ def parse_mtx_to_bcsr(file_path, BLOCK_M=16, BLOCK_K=16):
     if K > 0:
         b_pad[:K, :N_pad] = rng.integers(1, 11, size=(K, N_pad), dtype=np.int32).astype(np.float16)
 
-    # Golden: (M_pad x K_pad) @ (K_pad x N_pad) -> (M_pad x N_pad)
-    golden = (a_pad.astype(np.float32) @ b_pad.astype(np.float32)).astype(np.float32)
-
+    golden_list=[[0 for _ in range(N_pad)] for _ in range(M_pad)]
+    for d_idx in range(nnz):
+        for db_idx in range(N_pad):
+           golden_list[rows_new[d_idx]][db_idx]+=values_new[d_idx]*b_pad[cols_new[d_idx]][db_idx]
+    golden=np.array(golden_list,dtype=np.float32)
+    
     # Save B and golden
     b_pad.tofile(os.path.join(output_dir, 'x2_gm.bin'))
     golden.tofile(os.path.join(output_dir, 'golden.bin'))
@@ -419,21 +404,8 @@ def parse_mtx_to_bcsr_colcondense(file_path, BLOCK_M=16, BLOCK_K=16,num_cores=24
     values_new = new_csr_vals
 
     
-
-    a_pad = np.zeros((M_pad, K_pad), dtype=np.float16)
-
-    # Fill A_pad with original nonzeros
-    for r, c, v in zip(rows_new, cols_new, values_new):
-        if 0 <= r < M and 0 <= c < K:
-            a_pad[r, c] = np.float16(v)
-    # Calculate block dimensions
     
-    # Fill A_pad with original nonzeros
-    for r, c, v in zip(rows_new, cols_new, values_new):
-        if 0 <= r < M and 0 <= c < K:
-            a_pad[r, c] = np.float16(v)
-    # Calculate block dimensions
-    
+    #column condense start
     sparseAtoB=[0]*nnz*BLOCK_K
     # sparseAtoB=[0]*nnz
     rw_partition = [0]*(block_rows+1)
@@ -505,7 +477,11 @@ def parse_mtx_to_bcsr_colcondense(file_path, BLOCK_M=16, BLOCK_K=16,num_cores=24
         b_pad[:K, :N_pad] = rng.integers(1, 11, size=(K, N_pad), dtype=np.int32).astype(np.float16)
 
     # Golden: (M_pad x K_pad) @ (K_pad x N_pad) -> (M_pad x N_pad)
-    golden = (a_pad.astype(np.float32) @ b_pad.astype(np.float32)).astype(np.float32)
+    golden_list=[[0 for _ in range(N_pad)] for _ in range(M_pad)]
+    for d_idx in range(nnz):
+        for db_idx in range(N_pad):
+           golden_list[rows_new[d_idx]][db_idx]+=values_new[d_idx]*b_pad[cols_new[d_idx]][db_idx]
+    golden=np.array(golden_list,dtype=np.float32)
 
     # Save B and golden
     b_pad.tofile(os.path.join(output_dir, 'x2_gm.bin'))
@@ -640,20 +616,23 @@ def build_mst(graph):
 
 def dfs_order_with_block(mst, block_m, row_ptr, col_idx, threshold_union=0.6):
     n = len(mst)
-    visited = [False]*n
+    visited = [False] * n
     order = []
 
-    def dfs(u, current_block):
-        visited[u] = True
-        current_block.append(u)
-        neighbors = sorted(mst[u], key=lambda x: -x[1])
-        for v, _ in neighbors:
-            if not visited[v]:
-                dfs(v, current_block)
     for i in range(n):
         if not visited[i]:
             current_block = []
-            dfs(i, current_block)
+            stack = [i]         
+            visited[i] = True   
+
+            while stack:
+                u = stack.pop()          
+                current_block.append(u) 
+                neighbors = sorted(mst[u], key=lambda x: -x[1])
+                for v, _ in reversed(neighbors):
+                    if not visited[v]:
+                        visited[v] = True
+                        stack.append(v)
             order.extend(current_block)
     return order
 

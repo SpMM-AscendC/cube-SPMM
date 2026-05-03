@@ -1,4 +1,5 @@
 #!/bin/bash
+#!!!!!!!!!!!!!!!!!!!!!当前配置文件为列浓缩+重排+负载均衡!!!!!!!!!!!!!!!!!!!!!!!!!!!
 CURRENT_DIR=$(
     cd $(dirname ${BASH_SOURCE:-$0})
     pwd
@@ -44,18 +45,20 @@ function main {
 
     # 定义输入输出目录
     INPUTS_DIR="../inputs"
-    OUTPUT_DIR="../output_all"
+    OUTPUT_DIR="../output"
     MODE="reorder"
 
     # 清理并创建输出目录
     rm -rf $OUTPUT_DIR
     mkdir -p $OUTPUT_DIR
+    if [ ! -d "../profile_result" ]; then
+        mkdir -p "../profile_result"
+    fi
 
-
-    PROF_RESULT_DIR="../prof_result"
-    INDIVIDUAL_FILE="$PROF_RESULT_DIR/individual_result.txt"
-    CATEGORY_RESULT_FILE="$PROF_RESULT_DIR/result.txt"
-    mkdir -p $PROF_RESULT_DIR
+    profile_result_DIR="../profile_result"
+    INDIVIDUAL_FILE="$profile_result_DIR/individual_result_re_coldense_balance.txt"
+    CATEGORY_RESULT_FILE="$profile_result_DIR/result_re_coldense_balance.txt"
+    mkdir -p $profile_result_DIR
 
     FAILURE_LOG="$OUTPUT_DIR/failed_samples.log"
     rm -f $FAILURE_LOG
@@ -93,7 +96,6 @@ function main {
         category=$(basename $category_dir)
         #msprof op --output=./msprof_out_re_colcondense  
         msprof op --output=./msprof_out_re_colcondense ./output/execute_spmm_op $m $k $n $window_num $block_num $input_row_ptr $input_col $input_values $input_b $input_core_info $output_c $category $sample_name $MODE $input_ref
-        #msprof op --output=./msprof_out_coldense ./output/execute_spmm_op $m $k $n $window_num $block_num $input_row_ptr $input_col $input_values $input_b $input_core_info $output_c $category $sample_name $MODE
         if [ $? -ne 0 ]; then
             echo "[ERROR]: Acl executable run failed for sample $sample_name!"
             continue
@@ -142,7 +144,7 @@ function main {
         fi
 
         echo "[$(date +%Y-%m-%d\ %H:%M:%S)] | Category: $category | Sample: $sample_name | Dims(M,K,N,NNZ): $m,$k,$n,$nnz | Perf: $perf_value | Verify: $verify_status" >> $INDIVIDUAL_FILE
-        echo "" >> $INDIVIDUAL_FILE
+
 
         echo "==================== Finished test for $sample_name ===================="
         echo ""
@@ -169,6 +171,7 @@ function main {
         echo "Category: $cat_name | Dir: $cat_dir | Samples: $count | Total Perf: $sum | Avg Perf: $avg" >> $CATEGORY_RESULT_FILE
         echo "" >> $CATEGORY_RESULT_FILE
     done
+    echo "" >> $INDIVIDUAL_FILE
     echo "[INFO]: Individual results: $INDIVIDUAL_FILE"
     echo "[INFO]: Category statistics: $CATEGORY_RESULT_FILE"
 }

@@ -5,6 +5,5 @@ bash install.sh
 
 (
 cd AclNNInvocation
-bash test_re_con_prof.sh
-#bash test_reorder_colcondense_prof.sh
+bash test_re_colcondense_balance_prof.sh
 )

@@ -1,4 +1,5 @@
 #!/bin/bash
+#!!!!!!!!!!!!!!!!!!!!!当前配置文件为列浓缩+负载均衡!!!!!!!!!!!!!!!!!!!!!!!!
 CURRENT_DIR=$(
     cd $(dirname ${BASH_SOURCE:-$0})
     pwd
@@ -54,21 +55,23 @@ function main {
     INPUTS_DIR="../inputs"
     # INPUTS_DIR="/root/autodl-tmp/datasets-coldense/DataSets"
     # INPUTS_DIR="../inputs_all"
-    OUTPUT_DIR="../output_balance_split_2"
+    OUTPUT_DIR="../output"
     MODE="default"
 
     # 创建输出目录
-    mkdir -p ../output_all
     rm -rf $OUTPUT_DIR
     mkdir -p $OUTPUT_DIR
-
+    if [ ! -d "../profile_result" ]; then
+        mkdir -p "../profile_result"
+    fi
+    
     # 创建失败样本日志
     FAILURE_LOG="$OUTPUT_DIR/failed_samples.log"
     echo "[$(date +%Y-%m-%d\ %H:%M:%S)] Failed Samples Log" > $FAILURE_LOG
     echo "================================================================" >> $FAILURE_LOG
 
     # 创建单个样本性能记录文件
-    INDIVIDUAL_PERF_LOG="./result_info/individual_performance_coldense_balance_split_2.txt"
+    INDIVIDUAL_PERF_LOG="../profile_result/individual_result.txt"
     echo "[$(date +%Y-%m-%d\ %H:%M:%S)] ColDense Individual Sample Performance" > $INDIVIDUAL_PERF_LOG
     echo "================================================================" >> $INDIVIDUAL_PERF_LOG
     echo "Format: Category | Sample_Name | M | K | N | NNZ | WindowNum | BlockNum | FillRate | Performance(us)" >> $INDIVIDUAL_PERF_LOG
@@ -146,7 +149,7 @@ function main {
 
         # 记录单个样本的性能数据到文件（包含所有维度信息）
         echo "$category | $sample_name | $m | $k | $n | $nnz | $window_num | $block_num | $fill_rate | $perf_value" >> $INDIVIDUAL_PERF_LOG
-        echo "" >> $INDIVIDUAL_PERF_LOG
+
 
         # 统计分类性能数据
         if [[ "$perf_value" =~ ^[0-9.]+$ ]] && [ "$perf_value" != "0" ]; then
@@ -179,7 +182,7 @@ function main {
             fi
 
             # 7. 删除输出文件以节省空间（可选）
-            rm -f $output_c
+            rm -rf $output_c $sample_dir
             # echo "[INFO]: Removed output file $output_c"
         else
             echo "[WARN]: Output file not generated for sample $sample_name, skipping verification"
@@ -198,7 +201,7 @@ function main {
     # 汇总统计并写入result.txt
     echo -e "\n==================== ColDense Performance Statistics ===================="
     # 追加时间戳，便于追溯
-    echo -e "\n[$(date +%Y-%m-%d\ %H:%M:%S)] ColDense Performance Statistics" >> ./result_info/result_coldense.txt
+    echo -e "\n[$(date +%Y-%m-%d\ %H:%M:%S)] ColDense Performance Statistics" >> ../profile_result/result_coldense_balance.txt
     
     # 遍历所有分类目录的统计数据
     for cat_dir in "${!perf_sum[@]}"; do
@@ -214,10 +217,10 @@ function main {
         # 控制台输出
         echo "[INFO]: Category: $cat_name | Total Samples: $count | Total Performance: $sum us | Average: $avg us"
         # 追加写入result_coldense.txt
-        echo "Category: $cat_name | Directory: $cat_dir | Total Samples: $count | Total Performance: $sum us | Average: $avg us" >> ./result_info/result_coldense.txt
-        echo "" >> ./result_info/result_coldense.txt
+        echo "Category: $cat_name | Directory: $cat_dir | Total Samples: $count | Total Performance: $sum us | Average: $avg us" >> ../profile_result/result_coldense_balance.txt
+        echo "" >> ../profile_result/result_coldense_balance.txt
     done
-    
+    echo "" >> $INDIVIDUAL_PERF_LOG
     echo "[INFO]: Performance statistics have been written to ./result_coldense.txt"
     echo "[INFO]: Individual sample performance has been written to $INDIVIDUAL_PERF_LOG"
     echo "[INFO]: Failed samples log has been written to $FAILURE_LOG"

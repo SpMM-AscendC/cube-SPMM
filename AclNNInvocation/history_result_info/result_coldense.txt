@@ -1,0 +1,7 @@
+[2026-04-22 15:40:02] ColDense Performance Statistics
+Category: Bai | Directory: ../inputs/Bai | Total Samples: 4 | Total Performance: 132.32264500 us | Average: 33.080661 us
+Category: JGD | Directory: ../inputs/JGD | Total Samples: 3 | Total Performance: 309.60618500 us | Average: 103.202062 us
+Category: Gset | Directory: ../inputs/Gset | Total Samples: 3 | Total Performance: 216.94434300 us | Average: 72.314781 us
+Category: Pajek | Directory: ../inputs/Pajek | Total Samples: 2 | Total Performance: 55.52110900 us | Average: 27.760555 us
+Category: VDOL | Directory: ../inputs/VDOL | Total Samples: 4 | Total Performance: 493.34988400 us | Average: 123.337471 us
+Category: HB | Directory: ../inputs/HB | Total Samples: 5 | Total Performance: 53.12106300 us | Average: 10.624213 us

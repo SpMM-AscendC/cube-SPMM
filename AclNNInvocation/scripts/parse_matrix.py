@@ -199,13 +199,6 @@ def parse_mtx_to_bcsr(file_path, BLOCK_M=16, BLOCK_K=16):
     all_block_cols = []  # Starting columns (multiple of BLOCK_K) for each stored block
     all_block_vals = []  # Flattened (BLOCK_M*BLOCK_K) values for each stored block
 
-    # Also build dense A_pad for golden (optional but easiest / robust)
-    a_pad = np.zeros((M_pad, K_pad), dtype=np.float16)
-
-    # Fill A_pad with original nonzeros
-    for r, c, v in zip(rows, cols, vals):
-        if 0 <= r < M and 0 <= c < K:
-            a_pad[r, c] = np.float16(v)
 
     # Process each block row
     for br in range(block_rows):
@@ -272,8 +265,11 @@ def parse_mtx_to_bcsr(file_path, BLOCK_M=16, BLOCK_K=16):
             np.float16
         )
 
-    # Golden: (M_pad x K_pad) @ (K_pad x N_pad) -> (M_pad x N_pad)
-    golden = (a_pad.astype(np.float32) @ b_pad.astype(np.float32)).astype(np.float32)
+    golden_list=[[0 for _ in range(N_pad)] for _ in range(M_pad)]
+    for d_idx in range(nnz):
+        for db_idx in range(N_pad):
+           golden_list[rows[d_idx]][db_idx]+=vals[d_idx]*b_pad[cols[d_idx]][db_idx]
+    golden=np.array(golden_list,dtype=np.float32)
 
     # Save B and golden
     b_pad.tofile(os.path.join(output_dir, "x2_gm.bin"))
@@ -397,19 +393,6 @@ def parse_mtx_to_bcsr_colcondense(
     cols_new = new_csr_col_idx
     values_new = new_csr_vals
 
-    a_pad = np.zeros((M_pad, K_pad), dtype=np.float16)
-
-    # Fill A_pad with original nonzeros
-    for r, c, v in zip(rows_new, cols_new, values_new):
-        if 0 <= r < M and 0 <= c < K:
-            a_pad[r, c] = np.float16(v)
-    # Calculate block dimensions
-
-    # Fill A_pad with original nonzeros
-    for r, c, v in zip(rows_new, cols_new, values_new):
-        if 0 <= r < M and 0 <= c < K:
-            a_pad[r, c] = np.float16(v)
-    # Calculate block dimensions
 
     sparseAtoB = [0] * nnz * BLOCK_K
     # sparseAtoB=[0]*nnz
@@ -505,9 +488,11 @@ def parse_mtx_to_bcsr_colcondense(
                 1, 11, size=(K, N_pad), dtype=np.int32
             ).astype(np.float16)
 
-        golden = (a_pad.astype(np.float32) @ b_pad.astype(np.float32)).astype(
-            np.float32
-        )
+        golden_list=[[0 for _ in range(N_pad)] for _ in range(M_pad)]
+        for d_idx in range(nnz):
+            for db_idx in range(N_pad):
+               golden_list[rows_new[d_idx]][db_idx]+=values_new[d_idx]*b_pad[cols_new[d_idx]][db_idx]
+        golden=np.array(golden_list,dtype=np.float32)
 
         b_pad.tofile(b_path)
         golden.tofile(golden_path)
