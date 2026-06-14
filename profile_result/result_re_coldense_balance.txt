@@ -1,0 +1,57 @@
+[2026-04-27 14:54:06] Category Performance Statistics
+Category: Bai | Dir: ../inputs/Bai | Samples: 4 | Total Perf: 142.24284600 | Avg Perf: 35.560711
+
+Category: JGD | Dir: ../inputs/JGD | Samples: 3 | Total Perf: 312.10623800 | Avg Perf: 104.035413
+
+Category: Gset | Dir: ../inputs/Gset | Samples: 3 | Total Perf: 195.90392400 | Avg Perf: 65.301308
+
+Category: Pajek | Dir: ../inputs/Pajek | Samples: 2 | Total Perf: 40.06080100 | Avg Perf: 20.030400
+
+Category: VDOL | Dir: ../inputs/VDOL | Samples: 4 | Total Perf: 360.64721300 | Avg Perf: 90.161803
+
+Category: HB | Dir: ../inputs/HB | Samples: 5 | Total Perf: 53.42106900 | Avg Perf: 10.684214
+
+[2026-05-01 20:31:05] Category Performance Statistics
+Category: Bai | Dir: ../inputs/Bai | Samples: 69 | Total Perf: 1800.95602900 | Avg Perf: 26.100812
+
+[2026-05-02 06:48:55] Category Performance Statistics
+[2026-05-02 06:54:31] Category Performance Statistics
+Category: Bai | Dir: ../inputs/Bai | Samples: 3 | Total Perf: 94.48188900 | Avg Perf: 31.493963
+
+[2026-05-02 07:17:39] Category Performance Statistics
+Category: Gset | Dir: ../inputs/Gset | Samples: 33 | Total Perf: 1472.52945500 | Avg Perf: 44.622105
+
+[2026-05-02 09:00:06] Category Performance Statistics
+Category: HB | Dir: ../inputs/HB | Samples: 179 | Total Perf: 4382.50761900 | Avg Perf: 24.483283
+
+[2026-05-02 10:32:15] Category Performance Statistics
+Category: JGD_Homology | Dir: ../inputs/JGD_Homology | Samples: 113 | Total Perf: 9920.87842600 | Avg Perf: 87.795384
+
+[2026-05-02 12:39:05] Category Performance Statistics
+Category: VDOL | Dir: ../inputs/VDOL | Samples: 91 | Total Perf: 5143.16287300 | Avg Perf: 56.518273
+
+[2026-05-02 16:21:48] Category Performance Statistics
+Category: .ipynb_checkpoints | Dir: ../inputs/Pajek/.ipynb_checkpoints | Samples: 1 | Total Perf: 27.02054000 | Avg Perf: 27.020540
+
+Category: Pajek | Dir: ../inputs/Pajek | Samples: 98 | Total Perf: 5239.62479500 | Avg Perf: 53.465559
+
+[2026-05-03 13:59:04] Category Performance Statistics
+Category: BigData | Dir: ../inputs/BigData | Samples: 24 | Total Perf: 52406.36846800 | Avg Perf: 2183.598686
+
+[2026-06-09 03:27:10] Category Performance Statistics
+[2026-06-09 11:28:20] Category Performance Statistics
+[2026-06-09 11:48:16] Category Performance Statistics
+Category: Bai | Dir: ../inputs/Bai | Samples: 72 | Total Perf: 1201.40001000 | Avg Perf: 16.686111
+
+[2026-06-14 06:27:32] Category Performance Statistics
+Category: Bai | Dir: ../inputs/Bai | Samples: 1 | Total Perf: 0.00000000 | Avg Perf: 0.000000
+
+[2026-06-14 06:37:47] Category Performance Statistics
+Category: Bai | Dir: ../inputs/Bai | Samples: 4 | Total Perf: 0.00000000 | Avg Perf: 0.000000
+
+[2026-06-14 06:40:47] Category Performance Statistics
+Category: Bai | Dir: ../inputs/Bai | Samples: 4 | Total Perf: 0.00000000 | Avg Perf: 0.000000
+
+[2026-06-14 06:54:53] Category Performance Statistics
+Category: Bai | Dir: ../inputs/Bai | Samples: 4 | Total Perf: 0.00000000 | Avg Perf: 0.000000
+
